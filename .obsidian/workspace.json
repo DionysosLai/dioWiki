@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5106d02b030b3b10",
+        "id": "be528b33e32ea70c",
         "type": "tabs",
         "children": [
           {
-            "id": "c919ed9a19d2a285",
+            "id": "7543e07221f23068",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -190,8 +190,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "c919ed9a19d2a285",
+  "active": "7543e07221f23068",
   "lastOpenFiles": [
+    "Raw/pbrt/6 Shapes/6 Shapes.md",
+    "add_wikilinks.py",
     "Wiki/Concepts/人机协作知识管理.md",
     "Wiki/Concepts/知识复利.md",
     "Wiki/Concepts/RAG与Wiki范式.md",
@@ -217,7 +219,6 @@
     "Raw/pbrt/Index of Identifiers.md",
     "Raw/pbrt/Index of Fragments.md",
     "Raw/pbrt/A Sampling Algorithms/Further Reading.md",
-    "Raw/pbrt/A Sampling Algorithms/Exercises.md",
     "Raw/pbrt/C Processing the Scene Description",
     "Raw/pbrt/B Utilities",
     "Raw/pbrt/A Sampling Algorithms",
@@ -228,7 +229,6 @@
     "Raw/pbrt/12 Light Sources",
     "Raw/pbrt/未命名.canvas",
     "Raw/pbrt/11 Volume Scattering",
-    "Raw/pbrt/10 Textures and Materials",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
