@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "5abfb70364863f1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "5106d02b030b3b10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c919ed9a19d2a285",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "05733aae9be28a2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccc044318168b498",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ecfb4b5be8a82447",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "457bddc5bce9ab0b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "cf7f4d0b10debe15",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "536372e047c1cf79",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca60292ab04d6307",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2f789a417cd1c29",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "未命名.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "未命名 的反向链接列表"
+            }
+          },
+          {
+            "id": "60d67e366bdb05e0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "未命名.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "未命名 的出链列表"
+            }
+          },
+          {
+            "id": "76224fd8e9b5b8c9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "cdbc5abf02fbbbcb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "fa23e9d820f21789",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "未命名.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "未命名 的大纲"
+            }
+          },
+          {
+            "id": "86662815b68b1a1a",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 425.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "claudian:Open Claudian": false
+    }
+  },
+  "active": "c919ed9a19d2a285",
+  "lastOpenFiles": [
+    "Wiki/Concepts/人机协作知识管理.md",
+    "Wiki/Concepts/知识复利.md",
+    "Wiki/Concepts/RAG与Wiki范式.md",
+    "Wiki/Entities/Andrej Karpathy.md",
+    "Wiki/Sources/llm-wiki.md",
+    "Raw/pbrt/11 Volume Scattering/11.1 Volume Scattering Processes.md",
+    "Raw/pbrt/10 Textures and Materials/10 Textures and Materials.md",
+    "包围盒.md",
+    "Wiki/Concepts/光传输方程.md",
+    "Wiki/Concepts/相机与胶片.md",
+    "Wiki/Concepts/纹理与材质.md",
+    "Wiki/Concepts/光源.md",
+    "Wiki/Concepts/体积散射.md",
+    "Wiki/Concepts/反射模型.md",
+    "Wiki/Concepts/形状系统.md",
+    "Wiki/Concepts/采样与重建.md",
+    "Wiki/Concepts/文学编程.md",
+    "Wiki/Concepts/内化学习.md",
+    "Wiki/Concepts/光谱渲染.md",
+    "Wiki/Concepts/辐射度量学.md",
+    "Wiki/Concepts/仿射变换.md",
+    "Raw/pbrt/References.md",
+    "Raw/pbrt/Index of Identifiers.md",
+    "Raw/pbrt/Index of Fragments.md",
+    "Raw/pbrt/A Sampling Algorithms/Further Reading.md",
+    "Raw/pbrt/A Sampling Algorithms/Exercises.md",
+    "Raw/pbrt/C Processing the Scene Description",
+    "Raw/pbrt/B Utilities",
+    "Raw/pbrt/A Sampling Algorithms",
+    "Raw/pbrt/16 Retrospective and the Future",
+    "Raw/pbrt/15 Wavefront Rendering on GPUs",
+    "Raw/pbrt/14 Light Transport II Volume Rendering",
+    "Raw/pbrt/13 Light Transport I Surface Reflection",
+    "Raw/pbrt/12 Light Sources",
+    "Raw/pbrt/未命名.canvas",
+    "Raw/pbrt/11 Volume Scattering",
+    "Raw/pbrt/10 Textures and Materials",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}
