@@ -27,3 +27,19 @@ tags:
 5. ② Read Wrenninge's paper ([2016](https://pbr-book.org/4ed/Volume_Scattering/Further_Reading.html#cite:Wrenninge2016)) on a time-varying density representation for motion blur in volumes and implement this approach in pbrt. One challenge will be to generate volumes in this representation; you may need to implement a physical simulation system in order to make some yourself.
 
 > 5. ② 阅读 Wrenninge (2016) 关于用于体积运动模糊的时变密度表示的论文，并在 pbrt 中实现这种方法。一个挑战将是以这种表示生成体积；你可能需要实现一个物理模拟系统才能自己制作一些。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[体积散射]]
+
+**同章节**:
+- [[11 Volume Scattering]]
+- [[11.1 Volume Scattering Processes]]
+- [[11.2 Transmittance]]
+- [[11.3 Phase Functions]]
+- [[11.4 Media]]

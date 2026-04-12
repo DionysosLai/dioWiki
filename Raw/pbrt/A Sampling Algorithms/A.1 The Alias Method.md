@@ -180,3 +180,20 @@ Beyond sampling, it is useful to be able to query the size of the table and the 
 <<AliasTable Public Methods>>=
 
 size\_t size() const { return [bins](#AliasTable::bins).size(); } Float PMF(int index) const { return [bins](#AliasTable::bins) \[index\].[p](#AliasTable::Bin::p); }
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[采样与重建]]
+- [[蒙特卡洛积分]]
+
+**同章节**:
+- [[A Sampling Algorithms]]
+- [[A.2 Reservoir Sampling]]
+- [[A.3 The Rejection Method]]
+- [[A.4 Sampling 1D Functions]]
+- [[A.5 Sampling Multidimensional Functions]]

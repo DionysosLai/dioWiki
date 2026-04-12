@@ -245,3 +245,21 @@ Rainer et al. ([^66]) recently trained a neural network to represent a given BTF
 [^81]: Williams, L. 1983. Pyramidal parametrics. In *Computer Graphics (SIGGRAPH ’83 Proceedings)*, Volume 17, 1–11.
 
 [^82]: Wu, L., S. Zhao, L.-Q. Yan, and R. Ramamoorthi. 2019. Accurate appearance preserving prefiltering for rendering displacement-mapped surfaces. *ACM Transactions on Graphics (Proceedings of SIGGRAPH)* *38*  (4), 137:1–14.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[纹理与材质]]
+- [[BSDF]]
+
+**同章节**:
+- [[10 Textures and Materials]]
+- [[10.1 Texture Sampling and Antialiasing]]
+- [[10.2 Texture Coordinate Generation]]
+- [[10.3 Texture Interface and Basic Textures]]
+- [[10.4 Image Texture]]
+- [[10.5 Material Interface and Implementations]]

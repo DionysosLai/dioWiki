@@ -675,3 +675,18 @@ The linear and sRGB encodings are widely used in the system, so they are made av
 <<ColorEncoding Interface>>+=
 
 static [ColorEncoding](#ColorEncoding) Linear; static [ColorEncoding](#ColorEncoding) sRGB;
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**同章节**:
+- [[B Utilities]]
+- [[B.1 System Startup, Cleanup, and Options]]
+- [[B.2 Mathematical Infrastructure]]
+- [[B.3 User Interaction]]
+- [[B.4 Containers and Memory Management]]
+- [[B.6 Parallelism]]
+- [[B.7 Statistics]]

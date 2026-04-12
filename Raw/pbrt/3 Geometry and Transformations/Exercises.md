@@ -23,3 +23,27 @@ tags:
 4. ① Change pbrt so that it transforms [Normal3f](https://pbr-book.org/4ed/Geometry_and_Transformations/Normals.html#Normal3f) s just like [Vector3f](https://pbr-book.org/4ed/Geometry_and_Transformations/Vectors.html#Vector3f) s, and create a scene that gives a clearly incorrect image due to this bug. (Do not forget to revert this change from your copy of the source code when you are done!)
 
 > ① 修改 pbrt 使其像变换 Vector3f 一样变换 Normal3f，并创建一个由于此 bug 而产生明显错误图像的场景。（完成后别忘了在你的源代码副本中恢复这一更改！）
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[仿射变换]]
+- [[球面几何]]
+
+**同章节**:
+- [[3 Geometry and Transformations]]
+- [[3.1 Coordinate Systems]]
+- [[3.10 Applying Transformations]]
+- [[3.11 Interactions]]
+- [[3.2 n-Tuple Base Classes]]
+- [[3.3 Vectors]]
+- [[3.4 Points]]
+- [[3.5 Normals]]
+- [[3.6 Rays]]
+- [[3.7 Bounding Boxes]]
+- [[3.8 Spherical Geometry]]
+- [[3.9 Transformations]]

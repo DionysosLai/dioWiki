@@ -330,3 +330,13 @@ Marc Ellens provided spectral data for a variety of light sources, and the spect
 The *Watercolor* scene on the cover was created by Angelo Ferretti of Lucydreams ([www.lucydreams.it](http://www.lucydreams.it/)). It requires a total of 2 GiB of on-disk storage for geometry and 836 MiB for texture maps. Come rendering, the scene description requires 15 GiB of memory to store over 33 million unique triangles, 412 texture maps, and associated data structures.
 
 > 封面上的 *Watercolor* 场景由 Lucydreams 的 Angelo Ferretti（[www.lucydreams.it](http://www.lucydreams.it/)）创建。它的几何数据需要 2 GiB 的磁盘存储空间，纹理贴图需要 836 MiB。在渲染时，场景描述需要 15 GiB 的内存来存储超过 3300 万个独立三角形、412 张纹理贴图以及相关数据结构。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[光线追踪]]
+- [[文学编程]]

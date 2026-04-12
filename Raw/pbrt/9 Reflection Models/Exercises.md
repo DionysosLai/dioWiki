@@ -52,3 +52,25 @@ tags:
 9. ③ Read one or more papers from the "Further Reading" section of this chapter on efficiently rendering glints, which are evident when the surface microstructure is large enough or viewed closely enough that the assumption of a continuous distribution of microfacet orientations is no longer valid. Then, choose one such approach and implement it in pbrt. Render images that show off the effects it is capable of producing.
 
 > ③ 阅读本章"延伸阅读"部分中关于高效渲染闪光的一篇或多篇论文，当表面微结构足够大或观察足够近时，微面元取向连续分布的假设不再有效，此时闪光就会显现。然后选择一种这样的方法并在 pbrt 中实现。渲染图像以展示其能产生的效果。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[反射模型]]
+- [[BSDF]]
+
+**同章节**:
+- [[9 Reflection Models]]
+- [[9.1 BSDF Representation]]
+- [[9.2 Diffuse Reflection]]
+- [[9.3 Specular Reflection and Transmission]]
+- [[9.4 Conductor BRDF]]
+- [[9.5 Dielectric BSDF]]
+- [[9.6 Roughness Using Microfacet Theory]]
+- [[9.7 Rough Dielectric BSDF]]
+- [[9.8 Measured BSDFs]]
+- [[9.9 Scattering from Hair]]

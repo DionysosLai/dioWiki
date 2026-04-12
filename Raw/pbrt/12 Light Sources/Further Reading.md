@@ -157,3 +157,21 @@ The “bit trail” technique used to encode the path from the root to each ligh
 [^46]: Woo, A., and J. Amanatides. 1990. Voxel occlusion testing: A shadow determination accelerator for ray tracing. In *Proceedings of Graphics Interface 1990*, 213–20.
 
 [^47]: Zhu, J., Y. Bai, Z. Xu, S. Bako, E. Velázquez-Armendáriz, L. Wang, P. Sen, M. Hašan, and L.-Q. Yan. 2021. Neural complex luminaires: Representation and rendering. *ACM Transactions on Graphics (Proceedings of SIGGRAPH)* *40*  (4), 57:1–12.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[光源]]
+
+**同章节**:
+- [[12 Light Sources]]
+- [[12.1 Light Interface]]
+- [[12.2 Point Lights]]
+- [[12.3 Distant Lights]]
+- [[12.4 Area Lights]]
+- [[12.5 Infinite Area Lights]]
+- [[12.6 Light Sampling]]

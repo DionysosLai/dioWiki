@@ -21,3 +21,19 @@ We begin with the introduction of the equation of transfer, which generalizes th
 Following sections discuss implementations of solutions to the equation of transfer. Section [14.2](https://pbr-book.org/4ed/Light_Transport_II_Volume_Rendering/Volume_Scattering_Integrators.html#sec:vol-light-transport) introduces two [Integrator](https://pbr-book.org/4ed/Introduction/pbrt_System_Overview.html#Integrator) s that use Monte Carlo integration to solve the full equation of transfer, making it possible to render scenes with complex volumetric effects. Section [14.3](https://pbr-book.org/4ed/Light_Transport_II_Volume_Rendering/Scattering_from_Layered_Materials.html#sec:scattering-layered) then describes the implementation of [LayeredBxDF](https://pbr-book.org/4ed/Light_Transport_II_Volume_Rendering/Scattering_from_Layered_Materials.html#LayeredBxDF), which solves a 1D specialization of the equation of transfer to model scattering from layered materials at surfaces.
 
 > 后续各节讨论传输方程解的实现。第 14.2 节引入了两个使用蒙特卡洛积分求解完整传输方程的 Integrator，使得渲染具有复杂体积效果的场景成为可能。第 14.3 节描述了 LayeredBxDF 的实现，它求解传输方程的一维特化以建模表面分层材质的散射。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[光传输方程]]
+- [[体积散射]]
+- [[路径追踪]]
+
+**同章节**:
+- [[14.1 The Equation of Transfer]]
+- [[14.2 Volume Scattering Integrators]]
+- [[14.3 Scattering from Layered Materials]]

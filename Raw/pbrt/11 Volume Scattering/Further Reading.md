@@ -119,3 +119,19 @@ Acquiring the volumetric density variation of participating media is also challe
 [^37]: Yue, Y., K. Iwasaki, B.-Y. Chen, Y. Dobashi, and T. Nishita. 2010. Unbiased, adaptive stochastic sampling for rendering inhomogeneous participating media. *ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2010)* *29*  (5), 177:1–7.
 
 [^38]: Yue, Y., K. Iwasaki, B.-Y. Chen, Y. Dobashi, and T. Nishita. 2011. Toward optimal space partitioning for unbiased, adaptive free path sampling of inhomogeneous participating media. *Computer Graphics Forum* *30*  (7), 1911–19.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[体积散射]]
+
+**同章节**:
+- [[11 Volume Scattering]]
+- [[11.1 Volume Scattering Processes]]
+- [[11.2 Transmittance]]
+- [[11.3 Phase Functions]]
+- [[11.4 Media]]

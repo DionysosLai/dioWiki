@@ -833,3 +833,18 @@ Helper methods return error bounds for the vector components and indicate if the
 [Vector3f](https://pbr-book.org/4ed/Geometry_and_Transformations/Vectors.html#Vector3f) Error() const { return {x.Width() / 2, y.Width() / 2, z.Width() / 2}; } bool IsExact() const { return x.Width() == 0 && y.Width() == 0 && z.Width() == 0; }
 
 The Point3fi class, not included here, similarly provides the capabilities of a [Point3](https://pbr-book.org/4ed/Geometry_and_Transformations/Points.html#Point3) using intervals for its coordinate values. It, too, provides Error() and IsExact() methods.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**同章节**:
+- [[B Utilities]]
+- [[B.1 System Startup, Cleanup, and Options]]
+- [[B.3 User Interaction]]
+- [[B.4 Containers and Memory Management]]
+- [[B.5 Images]]
+- [[B.6 Parallelism]]
+- [[B.7 Statistics]]

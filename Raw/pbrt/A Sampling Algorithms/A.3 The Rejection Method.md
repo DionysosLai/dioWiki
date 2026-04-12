@@ -35,3 +35,20 @@ The function [RejectionSampleDisk()](#RejectionSampleDisk) implements this algor
 In general, the efficiency of rejection sampling depends on the percentage of samples that are expected to be rejected. For [RejectionSampleDisk()](#RejectionSampleDisk), this is easy to compute. It is the area of the disk divided by the area of the square:. If the method is applied to generate samples in hyperspheres in the general -dimensional case, however, the volume of an -dimensional hypersphere goes to 0 as increases, and this approach becomes increasingly inefficient.
 
 Rejection sampling is not used in any of the Monte Carlo algorithms currently implemented in pbrt. We will normally prefer to find distributions that are similar to the function that can be sampled directly, so that well-distributed sample points in can be mapped to sample points that are in turn well distributed. Nevertheless, rejection sampling is an important technique to be aware of, particularly when debugging Monte Carlo implementations. For example, if one suspects the presence of a bug in code that draws samples from some distribution using the inversion method, then one can replace it with a straightforward implementation based on the rejection method and see if the Monte Carlo estimator converges to the same value. Of course, it is necessary to take many samples in situations like these, so that variance in the estimates does not mask errors.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[采样与重建]]
+- [[蒙特卡洛积分]]
+
+**同章节**:
+- [[A Sampling Algorithms]]
+- [[A.1 The Alias Method]]
+- [[A.2 Reservoir Sampling]]
+- [[A.4 Sampling 1D Functions]]
+- [[A.5 Sampling Multidimensional Functions]]

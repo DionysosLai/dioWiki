@@ -25,3 +25,18 @@ For the CPU, this chapter introduces the Primitive interface and provides a numb
 The acceleration structure, BVHAggregate, is based on building a hierarchy of bounding boxes around objects in the scene. The online edition of this book also includes the implementation of a second acceleration structure, KdTreeAggregate, which is based on adaptive recursive spatial subdivision. While many other acceleration structures have been proposed, almost all ray tracers today use one of these two. Because construction and use of intersection acceleration structures is an integral part of GPU ray-tracing APIs, the acceleration structures in this chapter are only used on the CPU.
 
 > 加速结构 BVHAggregate 基于在场景物体周围构建包围盒层次结构。本书在线版还包含第二种加速结构 KdTreeAggregate 的实现，它基于自适应递归空间细分。尽管已有许多其他加速结构被提出，但当今几乎所有光线追踪器都使用这两种之一。由于相交加速结构的构建和使用是 GPU 光线追踪 API 的内在部分，本章的加速结构仅用于 CPU。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[BVH加速结构]]
+- [[形状系统]]
+
+**同章节**:
+- [[7.1 Primitive Interface and Geometric Primitives]]
+- [[7.2 Aggregates]]
+- [[7.3 Bounding Volume Hierarchies]]

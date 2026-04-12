@@ -17,3 +17,22 @@ In this chapter, we will present pbrt 's abstraction for geometric primitives su
 pbrt hides details about primitives behind a two-level abstraction. The Shape interface provides access to the basic geometric properties of the primitive, such as its surface area and bounding box, and provides a ray intersection routine. Then, the Primitive interface encapsulates additional non-geometric information about the primitive, such as its material properties. The rest of the renderer then deals only with the abstract Primitive interface. This chapter will focus on the geometry-only Shape class; the Primitive interface is a key topic of Chapter 7.
 
 > pbrt 将图元的细节隐藏在两层抽象之后。Shape 接口提供对图元基本几何属性（如表面积和包围盒）的访问，并提供光线求交例程。然后，Primitive 接口封装了关于图元的附加非几何信息，例如其材质属性。渲染器的其余部分只需处理抽象的 Primitive 接口。本章将聚焦于仅涉及几何的 Shape 类；Primitive 接口是第 7 章的核心主题。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[形状系统]]
+
+**同章节**:
+- [[6.1 Basic Shape Interface]]
+- [[6.2 Spheres]]
+- [[6.3 Cylinders]]
+- [[6.4 Disks]]
+- [[6.5 Triangle Meshes]]
+- [[6.6 Bilinear Patches]]
+- [[6.7 Curves]]
+- [[6.8 Managing Rounding Error]]

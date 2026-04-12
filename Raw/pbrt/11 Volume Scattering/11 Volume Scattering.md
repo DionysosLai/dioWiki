@@ -17,3 +17,18 @@ We have assumed so far that scenes are made up of collections of surfaces in a v
 This chapter first describes the basic physical processes that affect the radiance along rays passing through participating media, including the phase function, which characterizes the distribution of light scattered at a point in space. (It is the volumetric analog to the BSDF.) It then introduces transmittance, which describes the attenuation of light in participating media. Computing unbiased estimates of transmittance can be tricky, so we then discuss null scattering, a mathematical formalism that makes it easier to sample scattering integrals like the one that describes transmittance. Next, the [Medium](https://pbr-book.org/4ed/Volume_Scattering/Media.html#Medium) interface is defined; it is used for representing the properties of participating media in a region of space. Medium implementations provide information about the scattering properties at points in their extent. This chapter does not cover techniques related to computing lighting and the effect of multiple scattering in volumetric media; the associated Monte Carlo integration algorithms and implementations of [Integrator](https://pbr-book.org/4ed/Introduction/pbrt_System_Overview.html#Integrator) s that handle volumetric effects will be the topic of Chapter [14](https://pbr-book.org/4ed/Light_Transport_II_Volume_Rendering.html#chap:volume-integration).
 
 > 本章首先描述影响穿过参与介质的光线上辐射亮度的基本物理过程，包括相位函数，它表征了空间中某点处散射光的分布。（它是 BSDF 的体积类比。）然后引入透射率，描述参与介质中光的衰减。计算透射率的无偏估计可能很棘手，因此我们接着讨论零散射（null scattering），这是一种使采样散射积分（如描述透射率的积分）更容易的数学形式。接下来定义了 Medium 接口；它用于表示空间区域中参与介质的属性。Medium 实现提供其范围内各点的散射属性信息。本章不涉及与计算照明和体积介质中多次散射效果相关的技术；处理体积效果的相关蒙特卡洛积分算法和 Integrator 实现将是第 14 章的主题。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[体积散射]]
+
+**同章节**:
+- [[11.1 Volume Scattering Processes]]
+- [[11.2 Transmittance]]
+- [[11.3 Phase Functions]]
+- [[11.4 Media]]

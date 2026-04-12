@@ -164,3 +164,12 @@ tags:
 - [References](https://pbr-book.org/4ed/References.html)
 - [Index of Fragments](https://pbr-book.org/4ed/Index_of_Fragments.html)
 - [Index of Identifiers](https://pbr-book.org/4ed/Index_of_Identifiers.html)
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[光线追踪]]

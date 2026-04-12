@@ -35,3 +35,20 @@ Figure 10.1: Texture Aliasing. Both spheres have the same grid texture applied a
 The first section of this chapter will discuss the problem of texture aliasing and general approaches to solving it. We will then describe the basic texture interface and illustrate its use with a variety of texture functions. After the textures have been defined, the last section, [10.5](https://pbr-book.org/4ed/Textures_and_Materials/Material_Interface_and_Implementations.html#sec:material-interface), introduces the Material interface and a number of implementations.
 
 > 本章第一节将讨论纹理走样问题及解决它的一般方法。然后我们将描述基本的纹理接口，并通过各种纹理函数说明其用法。在纹理定义之后，最后一节 10.5 介绍了 Material 接口及若干实现。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[纹理与材质]]
+- [[BSDF]]
+
+**同章节**:
+- [[10.1 Texture Sampling and Antialiasing]]
+- [[10.2 Texture Coordinate Generation]]
+- [[10.3 Texture Interface and Basic Textures]]
+- [[10.4 Image Texture]]
+- [[10.5 Material Interface and Implementations]]

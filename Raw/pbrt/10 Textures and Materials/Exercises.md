@@ -27,3 +27,21 @@ tags:
 5. ③ Modify pbrt to support a shading language to allow user-written programs to compute texture values. Unless you are also interested in writing your own compiler, *OSL* (Gritz et al. [2010](https://pbr-book.org/4ed/Textures_and_Materials/Further_Reading.html#cite:Gritz2010)) is a good choice.
 
 > 5. ③ 修改 pbrt 以支持着色语言，允许用户编写的程序计算纹理值。除非你也有兴趣编写自己的编译器，否则 *OSL* (Gritz et al. 2010) 是一个好选择。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[纹理与材质]]
+- [[BSDF]]
+
+**同章节**:
+- [[10 Textures and Materials]]
+- [[10.1 Texture Sampling and Antialiasing]]
+- [[10.2 Texture Coordinate Generation]]
+- [[10.3 Texture Interface and Basic Textures]]
+- [[10.4 Image Texture]]
+- [[10.5 Material Interface and Implementations]]

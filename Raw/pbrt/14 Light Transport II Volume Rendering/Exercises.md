@@ -24,3 +24,20 @@ tags:
 > ② 研究改进 [LayeredBxDF](https://pbr-book.org/4ed/Light_Transport_II_Volume_Rendering/Scattering_from_Layered_Materials.html#LayeredBxDF) 中使用的采样模式的效果——例如，用低差异点替换所使用的均匀随机数。你可能需要通过 BSDF 求值例程传递更多信息，如当前像素、像素样本和当前光线深度。测量你的修改减少了多少误差及其性能影响。
 8. ③ Generalize the [LayeredBxDF](https://pbr-book.org/4ed/Light_Transport_II_Volume_Rendering/Scattering_from_Layered_Materials.html#LayeredBxDF) to allow the specification of an arbitrary number of layers with different media between them. You may want to review the improved sampling techniques for this case that were introduced by Gamboa et al. ([2020](https://pbr-book.org/4ed/Light_Transport_II_Volume_Rendering/Further_Reading.html#cite:Gamboa2020)). Verify that your implementation gives equivalent results to nested application of the [LayeredBxDF](https://pbr-book.org/4ed/Light_Transport_II_Volume_Rendering/Scattering_from_Layered_Materials.html#LayeredBxDF) and measure the efficiency difference between the two approaches.
 > ③ 将 [LayeredBxDF](https://pbr-book.org/4ed/Light_Transport_II_Volume_Rendering/Scattering_from_Layered_Materials.html#LayeredBxDF) 推广为允许指定任意数量的层以及层间不同的介质。你可能需要查阅 Gamboa 等人（[2020](https://pbr-book.org/4ed/Light_Transport_II_Volume_Rendering/Further_Reading.html#cite:Gamboa2020)）针对这种情况引入的改进采样技术。验证你的实现是否给出与嵌套应用 [LayeredBxDF](https://pbr-book.org/4ed/Light_Transport_II_Volume_Rendering/Scattering_from_Layered_Materials.html#LayeredBxDF) 等效的结果，并测量两种方法之间的效率差异。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[光传输方程]]
+- [[体积散射]]
+- [[路径追踪]]
+
+**同章节**:
+- [[14 Light Transport II Volume Rendering]]
+- [[14.1 The Equation of Transfer]]
+- [[14.2 Volume Scattering Integrators]]
+- [[14.3 Scattering from Layered Materials]]

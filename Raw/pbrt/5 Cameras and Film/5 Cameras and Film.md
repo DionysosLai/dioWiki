@@ -29,3 +29,18 @@ After light has been captured by a camera, it is measured by a sensor. While tra
 To that end, all of pbrt's camera models use an instance of the Film class, which defines the basic interface for the classes that represent images captured by cameras. We describe two film implementations in this chapter, both of which use the PixelSensor class to model the spectral response of a particular image sensor, be it film or digital. The film and sensor classes are described in the final section of this chapter.
 
 > 为此，pbrt 的所有相机模型都使用一个 Film 类的实例，该类定义了表示相机捕获图像的类的基本接口。本章描述两种胶片实现，它们都使用 PixelSensor 类来建模特定图像传感器（无论是胶片还是数字传感器）的光谱响应。胶片和传感器类在本章最后一节中描述。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[相机与胶片]]
+
+**同章节**:
+- [[5.1 Camera Interface]]
+- [[5.2 Projective Camera Models]]
+- [[5.3 Spherical Camera]]
+- [[5.4 Film and Imaging]]

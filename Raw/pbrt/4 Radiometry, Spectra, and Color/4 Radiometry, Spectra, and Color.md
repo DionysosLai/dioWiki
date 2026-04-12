@@ -21,3 +21,21 @@ These radiometric quantities generally vary as a function of wavelength. The var
 While spectral distributions are a purely physical concept, color is related to how humans perceive spectra. The lower wavelengths of light are said to be bluish colors, the middle wavelengths greens, and the upper wavelengths reds. It is important to have accurate models of color for two reasons: first, display devices like monitors expect colors rather than spectra to describe pixel values, so accurately converting spectra to appropriate colors is important for displaying rendered images. Second, emission and reflection properties of objects in scenes are often specified using colors; these colors must be converted into spectra for use in rendering. Section 4.6, at the end of this chapter, describes the properties of color in more detail and includes implementations of pbrt's color-related functionality.
 
 > 虽然光谱分布是纯粹的物理概念，但颜色与人类如何感知光谱有关。较低波长的光被认为是偏蓝色的，中间波长是绿色的，较高波长是红色的。准确的颜色模型很重要，原因有二：首先，显示设备（如显示器）期望用颜色而非光谱来描述像素值，因此准确地将光谱转换为适当的颜色对于显示渲染图像很重要。其次，场景中物体的发射和反射属性通常使用颜色指定；这些颜色必须转换为光谱以用于渲染。本章末尾的第 4.6 节更详细地描述了颜色的属性，并包含了 pbrt 颜色相关功能的实现。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[辐射度量学]]
+- [[光谱渲染]]
+
+**同章节**:
+- [[4.1 Radiometry]]
+- [[4.2 Working with Radiometric Integrals]]
+- [[4.3 Surface Reflection]]
+- [[4.4 Light Emission]]
+- [[4.5 Representing Spectral Distributions]]
+- [[4.6 Color]]

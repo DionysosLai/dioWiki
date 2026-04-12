@@ -351,3 +351,20 @@ Given those two points, we linearly interpolate between their values to evaluate
 <<Linearly interpolate between adjacent CDF values to find sample value>>=
 
 Float delta = c - offset; return [Lerp](https://pbr-book.org/4ed/Monte_Carlo_Integration/Sampling_Using_the_Inversion_Method.html#Lerp) (delta, [cdf](#PiecewiseConstant1D::cdf) \[offset\], [cdf](#PiecewiseConstant1D::cdf) \[offset + 1\]);
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[采样与重建]]
+- [[蒙特卡洛积分]]
+
+**同章节**:
+- [[A Sampling Algorithms]]
+- [[A.1 The Alias Method]]
+- [[A.2 Reservoir Sampling]]
+- [[A.3 The Rejection Method]]
+- [[A.5 Sampling Multidimensional Functions]]

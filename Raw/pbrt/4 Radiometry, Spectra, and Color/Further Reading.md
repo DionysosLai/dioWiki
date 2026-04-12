@@ -143,3 +143,22 @@ The previous methods all incorporated smoothness as a central design constraint.
 [^44]: Wilkie, A., and A. Weidlich. 2011. A physically plausible model for light emission from glowing solid objects. *Computer Graphics Forum (Proceedings of the 2011 Eurographics Symposium on Rendering)* *30*  (4), 1269–76.
 
 [^45]: Wilkie, A., S. Nawaz, M. Droske, A. Weidlich, and J. Hanika. 2014. Hero wavelength spectral sampling. *Computer Graphics Forum (Proceedings of the 2014 Eurographics Symposium on Rendering)* *33*  (4), 123–31.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[辐射度量学]]
+- [[光谱渲染]]
+
+**同章节**:
+- [[4 Radiometry, Spectra, and Color]]
+- [[4.1 Radiometry]]
+- [[4.2 Working with Radiometric Integrals]]
+- [[4.3 Surface Reflection]]
+- [[4.4 Light Emission]]
+- [[4.5 Representing Spectral Distributions]]
+- [[4.6 Color]]

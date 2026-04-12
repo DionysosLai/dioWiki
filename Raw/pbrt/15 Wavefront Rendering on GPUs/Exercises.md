@@ -17,3 +17,19 @@ tags:
 7. ③ When the WavefrontPathIntegrator runs on the CPU, there is currently minimal performance benefit from organizing work in queues. However, the queues offer the possibility of making it easier to use SIMD instructions on the CPU: kernels might remove 8 work items at a time, for example, processing them together using the 8 elements of a 256-bit SIMD register. Implement this approach and investigate pbrt 's performance. (You may want to consider using a language such as ispc ([Pharr and Mark 2012](https://pbr-book.org/4ed/Wavefront_Rendering_on_GPUs/Further_Reading.html#cite:Pharr2012)) to avoid the challenges of manually writing code using SIMD intrinsics.)
 > ③ 当 WavefrontPathIntegrator 在 CPU 上运行时，通过队列组织工作目前几乎没有性能优势。然而，队列提供了更容易在 CPU 上使用 SIMD 指令的可能性：例如，内核可以一次取出 8 个工作项，使用 256 位 SIMD 寄存器的 8 个元素一起处理它们。实现此方法并研究 pbrt 的性能。（你可能需要考虑使用 ispc（[Pharr and Mark 2012](https://pbr-book.org/4ed/Wavefront_Rendering_on_GPUs/Further_Reading.html#cite:Pharr2012)）等语言来避免手动编写 SIMD 内在函数代码的挑战。）
 8. ③ Implement a GPU ray tracer that is based on pbrt 's class implementations from previous chapters but uses the GPU's ray-tracing API for scheduling rendering work instead of the wavefront-based architecture used in this chapter. (You may want to start by supporting only a subset of the full functionality of the WavefrontPathIntegrator.) Measure the performance of the two implementations and discuss their differences. You may find it illuminating to use a profiler to measure the bandwidth consumed by each implementation. Can you find cases where the wavefront integrator's performance is limited by available memory bandwidth but yours is not?
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[GPU渲染]]
+- [[路径追踪]]
+
+**同章节**:
+- [[15 Wavefront Rendering on GPUs]]
+- [[15.1 Mapping Path Tracing to the GPU]]
+- [[15.2 Implementation Foundations]]
+- [[15.3 Path Tracer Implementation]]

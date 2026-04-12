@@ -16,3 +16,20 @@ Even after the massive increase in computational capability over the past two de
 
 The recent addition of specialized ray-tracing hardware to GPUs has opened a new chapter for path tracing, broadening the set of developers who are able to consider using the technique. Innovation generally progresses at a rate related to the number of people working in an area and so we very much look forward to the new ideas that the real-time graphics community will bring to path tracing in the coming years.
 > GPU 中最近新增的专用光线追踪硬件为路径追踪开启了新的篇章，扩大了能够考虑使用该技术的开发者群体。创新的进步速度通常与该领域工作人员的数量相关，因此我们非常期待实时图形社区在未来几年为路径追踪带来的新思想。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[光线追踪]]
+- [[GPU渲染]]
+
+**同章节**:
+- [[16 Retrospective and the Future]]
+- [[16.1 pbrt over the Years]]
+- [[16.2 Design Alternatives]]
+- [[16.3 Emerging Topics]]
+- [[16.5 Conclusion]]

@@ -287,3 +287,21 @@ While the rendering problem as discussed so far has been challenging enough, Jar
 [^93]: Zhu, S., Z. Xu, T. Sun, A. Kuznetsov, M. Meyer, H. W. Jensen, H. Su, and R. Ramamoorthi. 2021. Hierarchical neural reconstruction for path guiding using hybrid path and photon samples. *ACM Transactions on Graphics (Proceedings of SIGGRAPH)* *40*  (4), 35:1–16.
 
 [^94]: Zinke, A., C. Yuksel, A. Weber, and J. Keyser. 2008. Dual scattering approximation for fast multiple scattering in hair. *ACM Transactions on Graphics (Proceedings of SIGGRAPH 2008)* *27*  (3), 32:1–10.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[光传输方程]]
+- [[路径追踪]]
+- [[蒙特卡洛积分]]
+
+**同章节**:
+- [[13 Light Transport I Surface Reflection]]
+- [[13.1 The Light Transport Equation]]
+- [[13.2 Path Tracing]]
+- [[13.3 A Simple Path Tracer]]
+- [[13.4 A Better Path Tracer]]

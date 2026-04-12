@@ -435,3 +435,15 @@ Assuming the medium is not multiply defined, all that is to be done is to pass a
 <<Create ParameterDictionary for medium and call AddMedium() >>=
 
 The other object specification methods follow the same general form, though the BasicSceneBuilder::Shape() method is more complex than the others. Not only does it need to check to see if an AreaLight specification is active and call BasicScene::AddAreaLight() if so, but it also needs to distinguish between shapes with animated transformations and those without, creating an [AnimatedShapeSceneEntity](#AnimatedShapeSceneEntity) or a [ShapeSceneEntity](#ShapeSceneEntity) as appropriate.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**同章节**:
+- [[C Processing the Scene Description]]
+- [[C.1 Tokenizing and Parsing]]
+- [[C.3 BasicScene and Final Object Creation]]
+- [[C.4 Adding New Object Implementations]]

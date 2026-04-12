@@ -227,3 +227,23 @@ A variety of additional techniques for projected solid angle sampling have been 
 [^79]: Yoon, S.-E., P. Lindstrom, V. Pascucci, and D. Manocha. 2005. Cache-oblivious mesh layouts. In *ACM Transactions on Graphics (Proceedings of SIGGRAPH 2005)* *24*  (3), 886–93.
 
 [^80]: Zimmerman, K. 1995. Direct lighting models for ray tracing with cylindrical lamps. In *Graphics Gems V*, 285–89. San Diego: Academic Press.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[形状系统]]
+
+**同章节**:
+- [[6 Shapes]]
+- [[6.1 Basic Shape Interface]]
+- [[6.2 Spheres]]
+- [[6.3 Cylinders]]
+- [[6.4 Disks]]
+- [[6.5 Triangle Meshes]]
+- [[6.6 Bilinear Patches]]
+- [[6.7 Curves]]
+- [[6.8 Managing Rounding Error]]

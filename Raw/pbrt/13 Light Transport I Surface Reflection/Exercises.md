@@ -39,3 +39,21 @@ tags:
 8. ③ Implement a path guiding algorithm such as the one developed by Müller and collaborators ([Müller et al. 2017](https://pbr-book.org/4ed/Light_Transport_I_Surface_Reflection/Further_Reading.html#cite:Muller2017); [Müller 2019](https://pbr-book.org/4ed/Light_Transport_I_Surface_Reflection/Further_Reading.html#cite:Muller2019:ppg-notes)) or Reibold et al. ([2018](https://pbr-book.org/4ed/Light_Transport_I_Surface_Reflection/Further_Reading.html#cite:Reibold2018)). How much does your approach reduce error for scenes with highly varying indirect lighting? What is its effect on scenes with smoother lighting?
 
 > 8. ③ 实现一种路径引导算法，例如 Müller 及其合作者（2017; 2019）或 Reibold 等人（2018）开发的算法。你的方法对具有高度变化间接光照的场景减少了多少误差？对具有更平滑光照的场景有什么影响？
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[光传输方程]]
+- [[路径追踪]]
+- [[蒙特卡洛积分]]
+
+**同章节**:
+- [[13 Light Transport I Surface Reflection]]
+- [[13.1 The Light Transport Equation]]
+- [[13.2 Path Tracing]]
+- [[13.3 A Simple Path Tracer]]
+- [[13.4 A Better Path Tracer]]

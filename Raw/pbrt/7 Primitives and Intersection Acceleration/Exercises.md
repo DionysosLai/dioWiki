@@ -60,3 +60,19 @@ tags:
 13. ③ Lacewell et al. (2008) suggested augmenting the acceleration structure with a prefiltered directionally varying representation of occlusion for regions of space. Implement such an approach in pbrt, and compare its performance to the current implementation.
 
 > ③ Lacewell 等人（2008）建议用预过滤的方向可变遮挡表示来增强空间区域的加速结构。在 pbrt 中实现这种方法，并与当前实现比较性能。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[BVH加速结构]]
+- [[形状系统]]
+
+**同章节**:
+- [[7 Primitives and Intersection Acceleration]]
+- [[7.1 Primitive Interface and Geometric Primitives]]
+- [[7.2 Aggregates]]
+- [[7.3 Bounding Volume Hierarchies]]

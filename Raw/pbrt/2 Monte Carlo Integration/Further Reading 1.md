@@ -81,3 +81,19 @@ See also the “Further Reading” section in Appendix [A](https://pbr-book.org/
 [^25]: Talbot, J., D. Cline, and P. Egbert. 2005. Importance resampling for global illumination. *Rendering Techniques 2005: 16th Eurographics Workshop on Rendering*, 139–46.
 
 [^26]: West, W., I. Georgiev, A. Gruson, and T. Hachisuka. 2020. Continuous multiple importance sampling. *ACM Transactions on Graphics (Proceedings of SIGGRAPH)* *39*  (4), 136:1–12.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[蒙特卡洛积分]]
+
+**同章节**:
+- [[2 Monte Carlo Integration]]
+- [[2.1 Monte Carlo Basics]]
+- [[2.2 Improving Efficiency]]
+- [[2.3 Sampling Using the Inversion Method]]
+- [[2.4 Transforming between Distributions]]

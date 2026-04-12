@@ -91,3 +91,19 @@ pbrt ’s parallel for loop–based approach to multi-threading is a widely used
 [^27]: Warren, H. 2006. *Hacker’s Delight*. Reading, Massachusetts: Addison-Wesley.
 
 [^28]: Welford, B. P. 1962. Note on a method for calculating corrected sums of squares and products. *Technometrics* *4*  (3), 419–20.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**同章节**:
+- [[B Utilities]]
+- [[B.1 System Startup, Cleanup, and Options]]
+- [[B.2 Mathematical Infrastructure]]
+- [[B.3 User Interaction]]
+- [[B.4 Containers and Memory Management]]
+- [[B.5 Images]]
+- [[B.6 Parallelism]]
+- [[B.7 Statistics]]

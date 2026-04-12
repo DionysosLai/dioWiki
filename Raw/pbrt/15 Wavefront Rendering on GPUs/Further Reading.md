@@ -115,3 +115,19 @@ Imagination Technologies announced a mobile GPU that would use a ray-tracing arc
 [^37]: Zhang, M., A. Alawneh, and T. G. Rogers. 2021. Judging a type by its pointer: Optimizing GPU virtual functions. *Proceedings of the 26th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2021)*, 241–54.
 
 [^38]: Zhou, K., Q. Hou, R. Wang, and B. Guo. 2008. Real-time kd-tree construction on graphics hardware. *ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2008)* *27*  (5), 126:1–11.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[GPU渲染]]
+- [[路径追踪]]
+
+**同章节**:
+- [[15 Wavefront Rendering on GPUs]]
+- [[15.1 Mapping Path Tracing to the GPU]]
+- [[15.2 Implementation Foundations]]
+- [[15.3 Path Tracer Implementation]]

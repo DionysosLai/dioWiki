@@ -149,3 +149,19 @@ As with many other areas of image processing and understanding, techniques based
 [^49]: Zirr, T., J. Hanika, and C. Dachsbacher. 2018. Reweighting firefly samples for improved finite-sample Monte Carlo estimates. *Computer Graphics Forum* *37*  (6), 410–21.
 
 [^50]: Zwicker, M., W. Jarosz, J. Lehtinen, B. Moon, R. Ramamoorthi, F. Rousselle, P. Sen, C. Soler, and S.-E. Yoon. 2015. Recent advances in adaptive sampling and reconstruction for Monte Carlo rendering. *Computer Graphics Forum (Proceedings of Eurographics 2015)* *34*  (2), 667–81.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[相机与胶片]]
+
+**同章节**:
+- [[5 Cameras and Film]]
+- [[5.1 Camera Interface]]
+- [[5.2 Projective Camera Models]]
+- [[5.3 Spherical Camera]]
+- [[5.4 Film and Imaging]]

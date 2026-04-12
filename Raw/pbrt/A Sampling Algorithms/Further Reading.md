@@ -71,3 +71,21 @@ Arithmetic coding offers another interesting way to approach sampling from distr
 [^21]: Walker, A. J. 1974. New fast method for generating discrete random numbers with arbitrary frequency distributions. *Electronics Letters* *10*  (8): 127–28.
 
 [^22]: Walker, A. J. 1977. An efficient method for generating discrete random variables with general distributions. *ACM Transactions on Mathematical Software* *3*  (3), 253–56.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[采样与重建]]
+- [[蒙特卡洛积分]]
+
+**同章节**:
+- [[A Sampling Algorithms]]
+- [[A.1 The Alias Method]]
+- [[A.2 Reservoir Sampling]]
+- [[A.3 The Rejection Method]]
+- [[A.4 Sampling 1D Functions]]
+- [[A.5 Sampling Multidimensional Functions]]

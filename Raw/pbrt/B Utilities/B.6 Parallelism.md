@@ -518,3 +518,18 @@ It is useful to be able to iterate over all the per-thread objects managed by Th
 <<ThreadLocal Public Methods>>+=
 
 template <typename F> void ForAll(F &&func);
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**同章节**:
+- [[B Utilities]]
+- [[B.1 System Startup, Cleanup, and Options]]
+- [[B.2 Mathematical Infrastructure]]
+- [[B.3 User Interaction]]
+- [[B.4 Containers and Memory Management]]
+- [[B.5 Images]]
+- [[B.7 Statistics]]

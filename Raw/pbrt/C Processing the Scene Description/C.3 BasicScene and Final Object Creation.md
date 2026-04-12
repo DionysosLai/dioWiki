@@ -149,3 +149,15 @@ std::map<std::string, [Medium](https://pbr-book.org/4ed/Volume_Scattering/Media.
 As much as possible, other scene objects are created similarly using [RunAsync()](https://pbr-book.org/4ed/Utilities/Parallelism.html#RunAsync). Light sources are easy to handle, and it is especially helpful to start creating image textures during parsing, as reading image file formats from disk can be a bottleneck for scenes with many such textures. However, extra attention is required due to the cache of images already read for textures (Section [10.4.1](https://pbr-book.org/4ed/Textures_and_Materials/Image_Texture.html#sec:texture-caching)). If an image file on disk is used in multiple textures, [BasicScene](#BasicScene) takes care not to have multiple jobs redundantly reading the same image. Instead, only one reads it and the rest wait. When those textures are then created, the image they need can be efficiently returned from the cache.
 
 In return for the added complexity of this asynchronous object creation, we have found that for complex scenes it is not unusual for this version of pbrt to be able to start rendering 4 times more quickly than the previous version.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**同章节**:
+- [[C Processing the Scene Description]]
+- [[C.1 Tokenizing and Parsing]]
+- [[C.2 Managing the Scene Description]]
+- [[C.4 Adding New Object Implementations]]

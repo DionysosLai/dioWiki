@@ -29,3 +29,20 @@ As an example of the problems such lighting controls pose, consider a light that
 In scenes with many lights, it is impractical to account for the illumination from all of them at each point being shaded. Fortunately, this issue is yet another that can be handled stochastically. Given a suitable weighting factor, an unbiased estimate of the effect of illumination from all the lights can be computed by considering just a few of them, or even just one. The last section of this chapter therefore introduces the [LightSampler](https://pbr-book.org/4ed/Light_Sources/Light_Sampling.html#LightSampler), which defines an interface for choosing such light sources as well as a number of implementations of it.
 
 > 在有许多光源的场景中，在每个着色点考虑所有光源的照明是不切实际的。幸运的是，这是另一个可以随机处理的问题。给定合适的权重因子，只考虑少数几个甚至一个光源就可以计算所有光源照明效果的无偏估计。因此，本章最后一节引入了 LightSampler，它定义了选择此类光源的接口以及若干实现。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[光源]]
+
+**同章节**:
+- [[12.1 Light Interface]]
+- [[12.2 Point Lights]]
+- [[12.3 Distant Lights]]
+- [[12.4 Area Lights]]
+- [[12.5 Infinite Area Lights]]
+- [[12.6 Light Sampling]]

@@ -43,3 +43,18 @@ For code that runs on both the CPU and GPU, options must be accessed through the
 <<Options Inline Functions>>=
 
 const BasicPBRTOptions &GetOptions();
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**同章节**:
+- [[B Utilities]]
+- [[B.2 Mathematical Infrastructure]]
+- [[B.3 User Interaction]]
+- [[B.4 Containers and Memory Management]]
+- [[B.5 Images]]
+- [[B.6 Parallelism]]
+- [[B.7 Statistics]]

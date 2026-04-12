@@ -124,3 +124,21 @@ tags:
 112. Zhang, C., Z. Yu, and S. Zhao. 2021b. Path-space differentiable rendering of participating media. *ACM Transactions on Graphics (Proceedings of SIGGRAPH)* *40*  (4), 76:1–15.
 113. Zhao, S., L. Wu, F. Durand, and R. Ramamoorthi. 2016. Downsampling scattering parameters for rendering anisotropic media. *ACM Transactions on Graphics* *35*  (6), 166:1–11.
 114. Zhu, J., Y. Bai, Z. Xu, S. Bako, E. Velázquez-Armendáriz, L. Wang, P. Sen, M. Hašan, and L.-Q. Yan. 2021. Neural complex luminaires: Representation and rendering. *ACM Transactions on Graphics (Proceedings of SIGGRAPH)* *40*  (4), 57:1–12.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[光线追踪]]
+- [[GPU渲染]]
+
+**同章节**:
+- [[16 Retrospective and the Future]]
+- [[16.1 pbrt over the Years]]
+- [[16.2 Design Alternatives]]
+- [[16.3 Emerging Topics]]
+- [[16.5 Conclusion]]
+- [[The Future]]

@@ -55,3 +55,18 @@ The attentive reader will note that CPUs themselves fulfill all of those require
 At this writing, the only GPUs that provide all three of these capabilities are based on NVIDIA's CUDA platform, so NVIDIA's GPUs are the only ones that pbrt currently supports. We hope that it will be possible to support others in the future. Around two thousand lines of platform-specific code are required to handle low-level details like allocating unified memory, launching work on the GPU, and performing ray intersections on the GPU. As usual, we will not include platform-specific code in the book, but see the [gpu/](https://github.com/mmp/pbrt-v4/tree/master/src/pbrt/gpu/) directory in the pbrt source code distribution for its implementation.
 
 > 在撰写本文时，唯一提供这三种能力的 GPU 基于 NVIDIA 的 CUDA 平台，因此 NVIDIA 的 GPU 是 pbrt 目前唯一支持的。我们希望未来能够支持其他 GPU。大约需要两千行平台特定代码来处理底层细节，如分配统一内存、在 GPU 上启动工作以及在 GPU 上执行光线求交。像往常一样，我们不会在书中包含平台特定代码，但请参见 pbrt 源代码分发中的 gpu/ 目录了解其实现。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[GPU渲染]]
+- [[路径追踪]]
+
+**同章节**:
+- [[15.1 Mapping Path Tracing to the GPU]]
+- [[15.2 Implementation Foundations]]
+- [[15.3 Path Tracer Implementation]]

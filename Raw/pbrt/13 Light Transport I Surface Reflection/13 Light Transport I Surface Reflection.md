@@ -21,3 +21,20 @@ We start by deriving the light transport equation, which was first introduced in
 Both of these integrators find light-carrying paths starting from the camera, accounting for scattering from shapes' surfaces. Chapter [14](https://pbr-book.org/4ed/Light_Transport_II_Volume_Rendering.html#chap:volume-integration) will extend path tracing to include the effects of participating media. (The online edition of this book also includes a chapter that describes bidirectional methods for constructing light-carrying paths starting both from the camera and from light sources.)
 
 > 这两个积分器都从相机出发寻找携带光的路径，考虑形状表面的散射。第 14 章将扩展路径追踪以包括参与介质的效果。（本书的在线版本还包括一章描述从相机和光源两端构建携带光的路径的双向方法。）
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[光传输方程]]
+- [[路径追踪]]
+- [[蒙特卡洛积分]]
+
+**同章节**:
+- [[13.1 The Light Transport Equation]]
+- [[13.2 Path Tracing]]
+- [[13.3 A Simple Path Tracer]]
+- [[13.4 A Better Path Tracer]]

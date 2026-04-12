@@ -1713,3 +1713,12 @@ tags:
 - [WrapMode Definitions](https://pbr-book.org/4ed/Utilities/Images.html#fragment-WrapModeDefinitions-0)
 
 - [main program](https://pbr-book.org/4ed/Introduction/pbrt_System_Overview.html#fragment-mainprogram-0)
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[文学编程]]

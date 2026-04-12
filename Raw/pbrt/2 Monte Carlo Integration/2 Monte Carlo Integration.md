@@ -25,3 +25,18 @@ Judicious use of randomness has revolutionized the field of algorithm design. Ra
 The following sections discuss the basic principles of Monte Carlo integration, focusing on those that are widely used in pbrt. See also Appendix A, which has the implementations of additional Monte Carlo sampling functions that are more rarely used in the system.
 
 > 以下各节讨论蒙特卡洛积分的基本原理，重点关注那些在 pbrt 中广泛使用的内容。另请参见附录 A，其中有系统中较少使用的额外蒙特卡洛采样函数的实现。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[蒙特卡洛积分]]
+
+**同章节**:
+- [[2.1 Monte Carlo Basics]]
+- [[2.2 Improving Efficiency]]
+- [[2.3 Sampling Using the Inversion Method]]
+- [[2.4 Transforming between Distributions]]

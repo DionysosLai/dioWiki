@@ -2244,3 +2244,9 @@ tags:
 - [main()](https://pbr-book.org/4ed/Introduction/pbrt_System_Overview.html#main)
 
 - [point3BufferCache](https://pbr-book.org/4ed/Shapes/Triangle_Meshes.html#point3BufferCache)
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]

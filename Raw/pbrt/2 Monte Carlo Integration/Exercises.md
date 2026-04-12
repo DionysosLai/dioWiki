@@ -19,3 +19,19 @@ tags:
 3. ② The algorithm for sampling the linear interpolation function in Section 2.3.2 implicitly assumes that a ≥ 0 and b ≥ 0. Generalize SampleLinear() and the associated PDF and inversion functions to handle the case where the function is always negative as well as the case where it crosses zero due to a and b having different signs.
 
 > 3. ② 第 2.3.2 节中线性插值函数的采样算法隐含假设 a ≥ 0 且 b ≥ 0。推广 SampleLinear() 及其关联的 PDF 和反转函数，以处理函数始终为负的情况以及由于 a 和 b 符号不同导致函数过零的情况。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[蒙特卡洛积分]]
+
+**同章节**:
+- [[2 Monte Carlo Integration]]
+- [[2.1 Monte Carlo Basics]]
+- [[2.2 Improving Efficiency]]
+- [[2.3 Sampling Using the Inversion Method]]
+- [[2.4 Transforming between Distributions]]

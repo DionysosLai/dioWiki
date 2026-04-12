@@ -305,3 +305,19 @@ While effective, mailboxing does not work well with a multi-threaded ray tracer.
 [^100]: Zachmann, G. 2002. Minimal hierarchical collision detection. In *Proceedings of the ACM Symposium on Virtual Reality Software and Technology*, 121–28.
 
 [^101]: Zuniga, M., and J. Uhlmann. 2006. Ray queries with wide object isolation and the S-tree. *Journal of Graphics, GPU, and Game Tools* *11*  (3), 27–45.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[BVH加速结构]]
+- [[形状系统]]
+
+**同章节**:
+- [[7 Primitives and Intersection Acceleration]]
+- [[7.1 Primitive Interface and Geometric Primitives]]
+- [[7.2 Aggregates]]
+- [[7.3 Bounding Volume Hierarchies]]

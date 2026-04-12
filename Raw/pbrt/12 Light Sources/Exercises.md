@@ -51,3 +51,21 @@ tags:
 11. ③ Another shortcoming of the current [BVHLightSampler](https://pbr-book.org/4ed/Light_Sources/Light_Sampling.html#BVHLightSampler) implementation is that it does not account for the BSDF at the reference point but instead effectively assumes a diffuse surface. Read the paper by Liu et al. ([2019b](https://pbr-book.org/4ed/Light_Sources/Further_Reading.html#cite:Liu2019)) and improve the BVH light sampler's implementation by using their approach to account for this factor. Measure the change in MSE for a variety of scenes with this improvement.
 
 > 11. ③ 当前 BVHLightSampler 实现的另一个不足是它没有考虑参考点处的 BSDF，而是实际上假设为漫反射表面。阅读 Liu 等人 (2019b) 的论文，使用他们的方法改进 BVH 光源采样器的实现以考虑此因素。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[光源]]
+
+**同章节**:
+- [[12 Light Sources]]
+- [[12.1 Light Interface]]
+- [[12.2 Point Lights]]
+- [[12.3 Distant Lights]]
+- [[12.4 Area Lights]]
+- [[12.5 Infinite Area Lights]]
+- [[12.6 Light Sampling]]

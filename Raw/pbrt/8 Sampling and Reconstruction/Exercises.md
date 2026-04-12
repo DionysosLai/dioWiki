@@ -27,3 +27,24 @@ tags:
 5. ③ Read papers on adaptive sampling and reconstruction techniques from the "Further Reading" section and implement one in pbrt. Measure the effectiveness using Monte Carlo efficiency to account for increased computational cost. How well does your implementation perform compared to non-adaptive samplers?
 
 > ③ 阅读"Further Reading"中关于自适应采样与重建技术的论文，并在 pbrt 中实现其中一种。使用蒙特卡洛效率来衡量有效性，以考虑增加的计算成本。与非自适应采样器相比，你的实现表现如何？
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[采样与重建]]
+- [[蒙特卡洛积分]]
+
+**同章节**:
+- [[8 Sampling and Reconstruction]]
+- [[8.1 Sampling Theory]]
+- [[8.2 Sampling and Integration]]
+- [[8.3 Sampling Interface]]
+- [[8.4 Independent Sampler]]
+- [[8.5 Stratified Sampler]]
+- [[8.6 Halton Sampler]]
+- [[8.7 Sobol’ Samplers]]
+- [[8.8 Image Reconstruction]]

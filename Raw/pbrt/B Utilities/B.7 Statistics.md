@@ -65,3 +65,18 @@ To this end, the macro next defines a static variable of type StatRegisterer, gi
 Recall that in C++, constructors of global static objects run when program execution starts; thus, each static instance of the StatRegisterer class runs its constructor before main() starts running. This constructor, which is not included here, adds the lambda passed to it to a std::vector that holds all such lambdas for all the statistics.
 
 At the end of rendering, the [ForEachThread()](https://pbr-book.org/4ed/Utilities/Parallelism.html#ForEachThread) function is used to cause each thread to loop over the registered lambdas and call each of them. In turn, the StatsAccumulator will have all the aggregate values when they are done. The PrintStats() function can then be called to print all the statistics that have been accumulated in StatsAccumulator.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**同章节**:
+- [[B Utilities]]
+- [[B.1 System Startup, Cleanup, and Options]]
+- [[B.2 Mathematical Infrastructure]]
+- [[B.3 User Interaction]]
+- [[B.4 Containers and Memory Management]]
+- [[B.5 Images]]
+- [[B.6 Parallelism]]

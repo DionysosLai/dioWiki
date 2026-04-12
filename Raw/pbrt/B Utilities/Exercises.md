@@ -16,3 +16,19 @@ tags:
 > ② 尝试第 [B.7](https://pbr-book.org/4ed/Utilities/Statistics.html#sec:stats) 节中描述的统计系统的几种替代实现，以了解各种方法的性能权衡。你可以尝试使用原子操作来更新跨线程共享的单个计数器，或者尝试使用互斥锁来允许多线程安全地更新共享计数器。将性能与 pbrt 当前实现进行比较，并讨论结果的可能解释。
 4. ③ Generalize the statistics system (including the per-pixel statistics) so that it is also available in the GPU rendering path. You will likely want to pursue an approach based on atomic variables rather than the thread\_local approach that is used for the CPU. Measure the performance of your implementation and compare to the system before your changes. Is performance meaningfully affected?
 > ③ 推广统计系统（包括逐像素统计），使其在 GPU 渲染路径中也可用。你可能需要采用基于原子变量的方法，而非 CPU 使用的 thread\_local 方法。测量你实现的性能并与修改前的系统进行比较。性能是否受到显著影响？
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**同章节**:
+- [[B Utilities]]
+- [[B.1 System Startup, Cleanup, and Options]]
+- [[B.2 Mathematical Infrastructure]]
+- [[B.3 User Interaction]]
+- [[B.4 Containers and Memory Management]]
+- [[B.5 Images]]
+- [[B.6 Parallelism]]
+- [[B.7 Statistics]]

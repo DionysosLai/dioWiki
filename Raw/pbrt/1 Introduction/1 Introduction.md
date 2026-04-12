@@ -27,3 +27,21 @@ Most computer graphics books present algorithms and theory, sometimes combined w
 Figure 1.1: A Scene Rendered by pbrt. The *Kroken* scene features complex geometry, materials, and light transport. Handling all of these effects well in a rendering system makes it possible to render photorealistic images like this one. This scene and many others can be downloaded from the pbrt website. *(Scene courtesy of Angelo Ferretti.)*
 
 > 图 1.1：由 pbrt 渲染的场景。*Kroken* 场景具有复杂的几何体、材质和光传输。在渲染系统中良好地处理所有这些效果使得渲染像这样的照片级真实感图像成为可能。该场景及许多其他场景可从 pbrt 网站下载。*（场景由 Angelo Ferretti 提供。）*
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[光线追踪]]
+- [[文学编程]]
+
+**同章节**:
+- [[1.1 Literate Programming]]
+- [[1.2 Photorealistic Rendering and the Ray-Tracing Algorithm]]
+- [[1.3 pbrt System Overview]]
+- [[1.4 How to Proceed through This Book]]
+- [[1.6 A Brief History of Physically Based Rendering]]
+- [[1.6 Using and Understanding the Code]]

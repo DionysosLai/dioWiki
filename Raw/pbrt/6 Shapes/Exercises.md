@@ -88,3 +88,23 @@ tags:
 20. ② One detail thwarts the watertightness of the current Triangle shape implementation: the translation and shearing of triangle vertices introduces round-off error, which must be accounted for in the extent of triangles' bounding boxes. Modify pbrt to incorporate a solution to this shortcoming. Can you find scenes where small image errors are eliminated thanks to your fix?
 
 > ② 一个细节阻碍了当前 Triangle 形状实现的水密性：三角形顶点的平移和剪切引入了舍入误差，这必须在三角形包围盒的范围中加以考虑。修改 pbrt 以纳入此缺陷的解决方案。你能找到由于你的修复而消除了小图像错误的场景吗？
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[形状系统]]
+
+**同章节**:
+- [[6 Shapes]]
+- [[6.1 Basic Shape Interface]]
+- [[6.2 Spheres]]
+- [[6.3 Cylinders]]
+- [[6.4 Disks]]
+- [[6.5 Triangle Meshes]]
+- [[6.6 Bilinear Patches]]
+- [[6.7 Curves]]
+- [[6.8 Managing Rounding Error]]

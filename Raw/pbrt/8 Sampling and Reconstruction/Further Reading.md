@@ -279,3 +279,24 @@ Much recent work on adaptive sampling has been based on the foundation of Durand
 [^91]: Yellot, J. I. 1983. Spectral consequences of photoreceptor sampling in the Rhesus retina. *Science* *221*, 382–85.
 
 [^92]: Zwicker, M., W. Jarosz, J. Lehtinen, B. Moon, R. Ramamoorthi, F. Rousselle, P. Sen, C. Soler, and S.-E. Yoon. 2015. Recent advances in adaptive sampling and reconstruction for Monte Carlo rendering. *Computer Graphics Forum (Proceedings of Eurographics 2015)* *34*  (2), 667–81.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[采样与重建]]
+- [[蒙特卡洛积分]]
+
+**同章节**:
+- [[8 Sampling and Reconstruction]]
+- [[8.1 Sampling Theory]]
+- [[8.2 Sampling and Integration]]
+- [[8.3 Sampling Interface]]
+- [[8.4 Independent Sampler]]
+- [[8.5 Stratified Sampler]]
+- [[8.6 Halton Sampler]]
+- [[8.7 Sobol’ Samplers]]
+- [[8.8 Image Reconstruction]]

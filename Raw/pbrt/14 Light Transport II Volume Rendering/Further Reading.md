@@ -269,3 +269,20 @@ Handling fluorescence in the context of volumetric scattering introduces a numbe
 [^92]: Zhang, C., and S. Zhao. 2020. Multi-scale appearance modeling of granular materials with continuously varying grain properties. *Computer Graphics Forum* *39*  (4).
 
 [^93]: Zhao, S., L. Wu, F. Durand, and R. Ramamoorthi. 2016. Downsampling scattering parameters for rendering anisotropic media. *ACM Transactions on Graphics* *35*  (6), 166:1–11.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[光传输方程]]
+- [[体积散射]]
+- [[路径追踪]]
+
+**同章节**:
+- [[14 Light Transport II Volume Rendering]]
+- [[14.1 The Equation of Transfer]]
+- [[14.2 Volume Scattering Integrators]]
+- [[14.3 Scattering from Layered Materials]]

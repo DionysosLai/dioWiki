@@ -595,3 +595,20 @@ The PDF method implements the same computation that is used to compute the PDF i
 <<WindowedPiecewiseConstant2D Public Methods>>+=
 
 Float PDF([Point2f](https://pbr-book.org/4ed/Geometry_and_Transformations/Points.html#Point2f) p, const [Bounds2f](https://pbr-book.org/4ed/Geometry_and_Transformations/Bounding_Boxes.html#Bounds2f) &b) const { Float funcInt = [sat](#WindowedPiecewiseConstant2D::sat).[Integral](#SummedAreaTable::Integral) (b); if (funcInt == 0) return 0; return [Eval](#WindowedPiecewiseConstant2D::Eval) (p) / funcInt; }
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[采样与重建]]
+- [[蒙特卡洛积分]]
+
+**同章节**:
+- [[A Sampling Algorithms]]
+- [[A.1 The Alias Method]]
+- [[A.2 Reservoir Sampling]]
+- [[A.3 The Rejection Method]]
+- [[A.4 Sampling 1D Functions]]

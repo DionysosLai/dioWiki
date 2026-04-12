@@ -31,3 +31,15 @@ The scene description is processed in three stages, each of which is described i
 > - BasicScene 实例收集 BasicSceneBuilder 生成的对象，并创建用于渲染的相应对象类型。
 
 Once the BasicScene is complete, it is passed to either the [RenderCPU()](https://pbr-book.org/4ed/Introduction/pbrt_System_Overview.html#RenderCPU) or [RenderWavefront()](https://pbr-book.org/4ed/Wavefront_Rendering_on_GPUs/Mapping_Path_Tracing_to_the_GPU.html#RenderWavefront) function, as appropriate. Those functions then create the final representation of the scene that they will use for rendering. For most types of scene objects (e.g., the [Sampler](https://pbr-book.org/4ed/Sampling_and_Reconstruction/Sampling_Interface.html#Sampler)), both call a [BasicScene](https://pbr-book.org/4ed/Processing_the_Scene_Description/BasicScene_and_Final_Object_Creation.html#BasicScene) method that returns the object that corresponds to what was specified in the scene description. Those two functions diverge in how they represent the intersectable scene geometry. In [RenderCPU()](https://pbr-book.org/4ed/Introduction/pbrt_System_Overview.html#RenderCPU) as well as when the wavefront renderer is running on the CPU, the primitives and accelerators defined in Chapter [7](https://pbr-book.org/4ed/Primitives_and_Intersection_Acceleration.html#chap:acceleration) are used to represent it. With GPU rendering, shapes are converted to the representation expected by the GPU's ray-tracing API.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**同章节**:
+- [[C.1 Tokenizing and Parsing]]
+- [[C.2 Managing the Scene Description]]
+- [[C.3 BasicScene and Final Object Creation]]
+- [[C.4 Adding New Object Implementations]]

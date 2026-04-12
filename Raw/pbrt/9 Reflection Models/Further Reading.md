@@ -357,3 +357,25 @@ pbrt ’s test suite uses statistical hypothesis tests to verify the correctness
 [^113]: Zhu, J., Y. Xu, and L. Wang. 2019. A stationary SVBRDF material modeling method based on discrete microsurface. *Computer Graphics Forum* *38*  (7), 745–54.
 
 [^114]: Zinke, A., and A. Weber. 2007. Light scattering from filaments. *IEEE Transactions on Visualization and Computer Graphics* *13*  (2), 342–56.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[反射模型]]
+- [[BSDF]]
+
+**同章节**:
+- [[9 Reflection Models]]
+- [[9.1 BSDF Representation]]
+- [[9.2 Diffuse Reflection]]
+- [[9.3 Specular Reflection and Transmission]]
+- [[9.4 Conductor BRDF]]
+- [[9.5 Dielectric BSDF]]
+- [[9.6 Roughness Using Microfacet Theory]]
+- [[9.7 Rough Dielectric BSDF]]
+- [[9.8 Measured BSDFs]]
+- [[9.9 Scattering from Hair]]

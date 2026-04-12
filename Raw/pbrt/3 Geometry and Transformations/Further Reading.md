@@ -77,3 +77,27 @@ An algorithm to compute a tight bounding cone for multiple direction vectors was
 [^22]: Van Oosterom, A., and J. Strackee. 1983. The solid angle of a plane triangle. *IEEE Transactions on Biomedical Engineering* *BME-30*  (2), 125–26.
 
 [^23]: Wallis, B. 1990. Forms, vectors, and transforms. In A. S. Glassner (ed.), *Graphics Gems I*, 533–38. San Diego: Academic Press.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[仿射变换]]
+- [[球面几何]]
+
+**同章节**:
+- [[3 Geometry and Transformations]]
+- [[3.1 Coordinate Systems]]
+- [[3.10 Applying Transformations]]
+- [[3.11 Interactions]]
+- [[3.2 n-Tuple Base Classes]]
+- [[3.3 Vectors]]
+- [[3.4 Points]]
+- [[3.5 Normals]]
+- [[3.6 Rays]]
+- [[3.7 Bounding Boxes]]
+- [[3.8 Spherical Geometry]]
+- [[3.9 Transformations]]

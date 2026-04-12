@@ -21,3 +21,23 @@ This chapter starts by introducing *sampling theory*—the theory of taking disc
 With these ideas in hand, the implementations of six Samplers make up the bulk of this chapter. They span a wide variety of approaches to the sampling problem. The chapter concludes with the Filter class, which determines how multiple samples near each pixel are blended together to compute the final pixel value. Both of pbrt's Film implementations use these filters to accumulate image sample contributions into pixels of images.
 
 > 有了这些概念之后，六种 Sampler 的实现构成了本章的主体。它们涵盖了采样问题的多种不同方法。本章以 Filter 类收尾，该类决定了如何将每个像素附近的多个采样混合在一起来计算最终像素值。pbrt 的两种 Film 实现都使用这些滤波器将图像采样贡献累积到图像像素中。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[采样与重建]]
+- [[蒙特卡洛积分]]
+
+**同章节**:
+- [[8.1 Sampling Theory]]
+- [[8.2 Sampling and Integration]]
+- [[8.3 Sampling Interface]]
+- [[8.4 Independent Sampler]]
+- [[8.5 Stratified Sampler]]
+- [[8.6 Halton Sampler]]
+- [[8.7 Sobol’ Samplers]]
+- [[8.8 Image Reconstruction]]

@@ -67,3 +67,24 @@ Given a particular category of reflection, the reflectance distribution function
 In contrast, anisotropic materials reflect different amounts of light as you rotate them in this way. Examples of anisotropic materials include hair and many types of cloth. Industrial processes such as milling, rolling, extrusion, and 3D printing also tend to produce highly anisotropic surfaces, an extreme example being brushed metal.
 
 > 相比之下，各向异性材质在这样旋转时反射不同量的光。各向异性材质的例子包括头发和许多类型的布料。铣削、轧制、挤压和 3D 打印等工业工艺也倾向于产生高度各向异性的表面，一个极端的例子是拉丝金属。
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[反射模型]]
+- [[BSDF]]
+
+**同章节**:
+- [[9.1 BSDF Representation]]
+- [[9.2 Diffuse Reflection]]
+- [[9.3 Specular Reflection and Transmission]]
+- [[9.4 Conductor BRDF]]
+- [[9.5 Dielectric BSDF]]
+- [[9.6 Roughness Using Microfacet Theory]]
+- [[9.7 Rough Dielectric BSDF]]
+- [[9.8 Measured BSDFs]]
+- [[9.9 Scattering from Hair]]

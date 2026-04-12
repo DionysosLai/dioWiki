@@ -14,3 +14,21 @@ tags:
 > ② 修改 [PiecewiseConstant1D](https://pbr-book.org/4ed/Sampling_Algorithms/Sampling_1D_Functions.html#PiecewiseConstant1D) 的实现，使用 Lawrence 等人（[2005](https://pbr-book.org/4ed/Sampling_Algorithms/Further_Reading.html#cite:Lawrence05)）描述的自适应 CDF 表示，并实验在不产生图像伪影的情况下 CDF 表示可以做到多紧凑。（好的测试场景包括使用 [ImageInfiniteLight](https://pbr-book.org/4ed/Light_Sources/Infinite_Area_Lights.html#ImageInfiniteLight) 的场景，它们使用 [PiecewiseConstant2D](https://pbr-book.org/4ed/Sampling_Algorithms/Sampling_Multidimensional_Functions.html#PiecewiseConstant2D) 从而也使用 [PiecewiseConstant1D](https://pbr-book.org/4ed/Sampling_Algorithms/Sampling_1D_Functions.html#PiecewiseConstant1D) 进行采样。）你能否测量到由于更高效地搜索近似 CDF 而带来的渲染速度提升？
 3. ② Extend [SummedAreaTable](https://pbr-book.org/4ed/Sampling_Algorithms/Sampling_Multidimensional_Functions.html#SummedAreaTable) to provide methods that efficiently compute 1D integrals along each dimension and then modify the [WindowedPiecewiseConstant2D](https://pbr-book.org/4ed/Sampling_Algorithms/Sampling_Multidimensional_Functions.html#WindowedPiecewiseConstant2D) class's Sample() method to use this capability for sampling the conditional CDF. How is overall rendering performance affected by your change when rendering a scene that uses the [PortalImageInfiniteLight](https://pbr-book.org/4ed/Light_Sources/Infinite_Area_Lights.html#PortalImageInfiniteLight)? Profile pbrt and measure the change in performance of the Sample() method with your changes. What conclusions can you draw from your results?
 > ② 扩展 [SummedAreaTable](https://pbr-book.org/4ed/Sampling_Algorithms/Sampling_Multidimensional_Functions.html#SummedAreaTable) 以提供沿每个维度高效计算一维积分的方法，然后修改 [WindowedPiecewiseConstant2D](https://pbr-book.org/4ed/Sampling_Algorithms/Sampling_Multidimensional_Functions.html#WindowedPiecewiseConstant2D) 类的 Sample() 方法以使用此能力进行条件 CDF 采样。当渲染使用 [PortalImageInfiniteLight](https://pbr-book.org/4ed/Light_Sources/Infinite_Area_Lights.html#PortalImageInfiniteLight) 的场景时，你的修改对整体渲染性能有什么影响？对 pbrt 进行性能分析并测量你的修改对 Sample() 方法性能的变化。你能从结果中得出什么结论？
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[采样与重建]]
+- [[蒙特卡洛积分]]
+
+**同章节**:
+- [[A Sampling Algorithms]]
+- [[A.1 The Alias Method]]
+- [[A.2 Reservoir Sampling]]
+- [[A.3 The Rejection Method]]
+- [[A.4 Sampling 1D Functions]]
+- [[A.5 Sampling Multidimensional Functions]]

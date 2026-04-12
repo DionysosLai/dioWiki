@@ -101,3 +101,20 @@ Remarkably, it is possible to merge two reservoirs into one in such a way that t
 <<WeightedReservoirSampler Public Methods>>+=
 
 void Merge(const WeightedReservoirSampler &wrs) { if (wrs.[HasSample](#WeightedReservoirSampler::HasSample) ()) [Add](#WeightedReservoirSampler::Add) (wrs.[reservoir](#WeightedReservoirSampler::reservoir), wrs.[weightSum](#WeightedReservoirSampler::weightSum)); }
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[采样与重建]]
+- [[蒙特卡洛积分]]
+
+**同章节**:
+- [[A Sampling Algorithms]]
+- [[A.1 The Alias Method]]
+- [[A.3 The Rejection Method]]
+- [[A.4 Sampling 1D Functions]]
+- [[A.5 Sampling Multidimensional Functions]]

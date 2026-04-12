@@ -24,3 +24,22 @@ tags:
 4. ② Modify the SampledSpectrum class to also store the wavelengths associated with the samples and their PDFs. Using pbrt's assertion macros, add checks to ensure that no computations are performed using SampledSpectrum values associated with different wavelengths. Measure the performance of pbrt with and without your changes. How much runtime overhead is there? Did you find any bugs in pbrt?
 
 > ② 修改 SampledSpectrum 类，使其也存储与样本相关联的波长及其 PDF。使用 pbrt 的断言宏，添加检查以确保不会使用关联不同波长的 SampledSpectrum 值进行计算。测量有无你的更改时 pbrt 的性能。运行时开销有多大？你发现了 pbrt 中的任何 bug 吗？
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[辐射度量学]]
+- [[光谱渲染]]
+
+**同章节**:
+- [[4 Radiometry, Spectra, and Color]]
+- [[4.1 Radiometry]]
+- [[4.2 Working with Radiometric Integrals]]
+- [[4.3 Surface Reflection]]
+- [[4.4 Light Emission]]
+- [[4.5 Representing Spectral Distributions]]
+- [[4.6 Color]]

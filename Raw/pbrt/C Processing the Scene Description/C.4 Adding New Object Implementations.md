@@ -19,3 +19,15 @@ To sum up various details that have been spread across multiple chapters, three 
 3. The interface type's Create() method should be modified to create an instance of the new type when it has been specified in the scene description.
 
 It is probably a good idea to implement a static Create() method in the new type that takes a [ParameterDictionary](https://pbr-book.org/4ed/Processing_the_Scene_Description/Managing_the_Scene_Description.html#ParameterDictionary) and such, to specify the object's parameters in the same way that the existing classes do, but doing so is not a requirement.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**同章节**:
+- [[C Processing the Scene Description]]
+- [[C.1 Tokenizing and Parsing]]
+- [[C.2 Managing the Scene Description]]
+- [[C.3 BasicScene and Final Object Creation]]

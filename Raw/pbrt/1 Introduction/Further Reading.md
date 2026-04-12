@@ -97,3 +97,22 @@ Whereas standard rendering algorithms generate images from a 3D scene descriptio
 [^30]: Sung, K., J. Craighead, C. Wang, S. Bakshi, A. Pearce, and A. Woo. 1998. Design and implementation of the Maya renderer. In *Pacific Graphics ’98*
 
 [^31]: Trumbore, B., W. Lytle, and D. P. Greenberg. 1993. A testbed for image synthesis. In *Developing Large-Scale Graphics Software Toolkits*, SIGGRAPH ’93 Course Notes, Volume 3, 4-7–19.
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**相关概念**:
+- [[光线追踪]]
+- [[文学编程]]
+
+**同章节**:
+- [[1 Introduction]]
+- [[1.1 Literate Programming]]
+- [[1.2 Photorealistic Rendering and the Ray-Tracing Algorithm]]
+- [[1.3 pbrt System Overview]]
+- [[1.4 How to Proceed through This Book]]
+- [[1.6 A Brief History of Physically Based Rendering]]
+- [[1.6 Using and Understanding the Code]]

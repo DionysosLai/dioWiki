@@ -108,3 +108,15 @@ The lookedUp member variable is provided for the code related to extracting para
 mutable bool lookedUp = false;
 
 We will not discuss the remainder of the methods in the [ParserTarget](#ParserTarget) interface here, though we will see more of them in the [BasicSceneBuilder](https://pbr-book.org/4ed/Processing_the_Scene_Description/Managing_the_Scene_Description.html#BasicSceneBuilder) methods that implement them in Sections [C.2.3](https://pbr-book.org/4ed/Processing_the_Scene_Description/Managing_the_Scene_Description.html#sec:graphics-state) and [C.2.4](https://pbr-book.org/4ed/Processing_the_Scene_Description/Managing_the_Scene_Description.html#sec:specifying-scene-elements).
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**同章节**:
+- [[C Processing the Scene Description]]
+- [[C.2 Managing the Scene Description]]
+- [[C.3 BasicScene and Final Object Creation]]
+- [[C.4 Adding New Object Implementations]]

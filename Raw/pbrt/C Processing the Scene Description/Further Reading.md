@@ -18,3 +18,16 @@ There has been little standardization in these file formats; many 3D graphics fi
 2. Pixar Animation Studios. 2020. Universal Scene Description. [https://graphics.pixar.com/usd/docs/index.html](https://graphics.pixar.com/usd/docs/index.html).
 3. Upstill, S. 1989. *The RenderMan Companion*. Reading, Massachusetts: Addison-Wesley.
 4. Walt Disney Animation Studios. 2018. *Moana Island Scene*. [https://www.disneyanimation.com/resources/moana-island-scene](https://www.disneyanimation.com/resources/moana-island-scene).
+
+---
+## 🔗 Related
+
+**来源**: [[pbrt]]
+**作者**: [[Matt Pharr]], [[Wenzel Jakob]], [[Greg Humphreys]]
+
+**同章节**:
+- [[C Processing the Scene Description]]
+- [[C.1 Tokenizing and Parsing]]
+- [[C.2 Managing the Scene Description]]
+- [[C.3 BasicScene and Final Object Creation]]
+- [[C.4 Adding New Object Implementations]]
