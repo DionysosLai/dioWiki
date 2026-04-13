@@ -8,6 +8,7 @@ aliases:
   - BTDF
 source:
   - "[[pbrt]]"
+  - "[[fcg]]"
 related:
   - "[[光线追踪]]"
   - "[[路径追踪]]"
@@ -71,6 +72,10 @@ pbrt 在 Chapter 9 中实现了多种反射模型：
 - BRDF + BTDF → BSDF（统一散射）
 - BSDF → BSSRDF（次表面散射，如 Figure 1.10 中的人头模型）
 
+## 在虎书中
+
+虎书从两个层次讲解表面散射：Ch10 Surface Shading 介绍基础的 Phong/Blinn-Phong 着色模型（经验模型），Ch24 Reflection Models 则介绍物理正确的 BSDF 和微表面理论。从经验模型到物理模型的过渡有助于理解 [[pbrt]] Ch9 的设计动机。
+
 ## 关联
 
 - [[路径追踪]] — 需要按 BSDF 采样方向来计算光传输
@@ -80,3 +85,4 @@ pbrt 在 Chapter 9 中实现了多种反射模型：
 - [[纹理与材质]] — 材质层参数化 BSDF 的具体参数值
 - [[光传输方程]] — BSDF 是光传输方程被积函数的核心项
 - [[体积散射]] — 相位函数是 BSDF 的体积类比
+- [[fcg]] — Ch10 Surface Shading（经验模型入门）+ Ch24 Reflection Models（物理模型）

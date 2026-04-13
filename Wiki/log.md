@@ -2,7 +2,7 @@
 title: "Wiki Log"
 description: "知识库操作日志 — 按时间记录所有 ingest、query、lint 操作"
 created: 2026-04-10
-updated: 2026-04-12
+updated: 2026-04-13
 ---
 
 # 📝 Wiki Log
@@ -16,6 +16,24 @@ updated: 2026-04-12
 可用 `grep "^## \[" log.md | tail -5` 快速查看最近 5 条记录。
 
 ---
+
+## [2026-04-13] ingest | 虎书《Fundamentals of Computer Graphics》4th Ed. 完整摄入
+
+- 来源：`Raw/Fundamentals of Computer Graphics, Fourth Edition ( PDFDrive ).pdf`（737页 PDF）
+- 作者：Steve Marschner, Peter Shirley
+- **操作 1：PDF 提取**
+  - 按 26 章 + 前言拆分为 27 个 Markdown 文件，存入 `Raw/fcg/`
+  - 总文本量约 1.35MB（PDF 直接提取，含断行等 PDF 提取特征）
+- **操作 2：Wiki 框架建立**
+  - 新建 `Sources/fcg.md` — 来源摘要（含全书 26 章结构、与 pbrt 对比表）
+  - 新建 `Entities/Steve Marschner.md`、`Entities/Peter Shirley.md` — 作者实体
+  - 更新 `index.md`、`overview.md` — 加入虎书来源和作者
+- **操作 3：跨书概念关联**
+  - 更新 11 个共享概念页面（光线追踪、蒙特卡洛积分、仿射变换、采样与重建、BVH加速结构、BSDF、辐射度量学、纹理与材质、路径追踪、光传输方程、反射模型）
+  - 每个概念页面添加 `[[fcg]]` 来源引用 + "在虎书中"章节说明 + 关联链接
+- **操作 4：Raw 文件 wikilink**
+  - 为 27 个 Raw/fcg 文件添加 Related 区块（来源、作者、关联概念、pbrt 对应章节）
+- **待完成**：双语翻译（27 个文件，约 1.35MB 英文文本）
 
 ## [2026-04-12] ingest | 补齐 ingest —— llm-wiki 完整摄入 + 数学觉醒深度充实
 

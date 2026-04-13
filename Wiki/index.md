@@ -14,12 +14,15 @@ updated: 2026-04-12
 | [[数学觉醒]] | 《数学觉醒：学会更清晰地思考》 | 第1-2章完整摘要，3-20章标题推断（原文受限） |
 | [[pbrt]] | 《Physically Based Rendering》4th Ed. | ✅ 全书完整（16章+3附录+前言，167文件，全部双语翻译） |
 | [[llm-wiki]] | LLM Wiki 方法论（Andrej Karpathy） | ✅ 完整（原文全文） |
+| [[fcg]] | 《Fundamentals of Computer Graphics》4th Ed.（虎书） | ✅ 全书提取（26章+前言，27文件，待双语翻译） |
 
 ## 实体 (Entities)
 
 | 页面 | 类型 | 关联来源 |
 |------|------|---------|
 | [[戴维·贝西]] | 人物 | 《数学觉醒》作者 |
+| [[Steve Marschner]] | 人物 | 虎书第一作者 |
+| [[Peter Shirley]] | 人物 | 虎书作者 |
 | [[Matt Pharr]] | 人物 | pbrt 第一作者 |
 | [[Wenzel Jakob]] | 人物 | pbrt 作者 |
 | [[Greg Humphreys]] | 人物 | pbrt 作者 |
@@ -77,4 +80,4 @@ updated: 2026-04-12
 
 ---
 
-*最后更新：2026-04-12（补齐 llm-wiki ingest + 数学觉醒深度充实）*
+*最后更新：2026-04-13（虎书 ingest — PDF 提取 27 文件 + Wiki 框架建立）*
