@@ -196,6 +196,17 @@
   },
   "active": "ecfb4b5be8a82447",
   "lastOpenFiles": [
+    "Raw/数学觉醒：学会更清晰地思考/致谢-整理说明.txt",
+    "Raw/数学觉醒：学会更清晰地思考/第9章-问题出在哪里？-摘要.txt",
+    "Raw/数学觉醒：学会更清晰地思考/第8章-触觉理论-摘要.txt",
+    "Raw/数学觉醒：学会更清晰地思考/第7章-孩童的姿态-摘要.txt",
+    "Raw/数学觉醒：学会更清晰地思考/第6章-不读数学书-摘要.txt",
+    "Raw/数学觉醒：学会更清晰地思考/第5章-看不见的行动-摘要.txt",
+    "Raw/数学觉醒：学会更清晰地思考/第4章-真正的魔法-摘要.txt",
+    "Raw/数学觉醒：学会更清晰地思考/第3章-思想的力量-摘要.txt",
+    "Raw/数学觉醒：学会更清晰地思考/第2章-勺子的正确用法-摘要.txt",
+    "Raw/数学觉醒：学会更清晰地思考/第20章-数学觉醒-摘要.txt",
+    "Raw/数学觉醒：学会更清晰地思考/第1章-三个秘密-摘要.txt",
     "Untitled.md",
     "README.md",
     "未命名 1.canvas",
@@ -203,7 +214,6 @@
     "2026-04-11.md",
     "包围盒.md",
     "Raw/pbrt/6 Shapes/6 Shapes.md",
-    "add_wikilinks.py",
     "Wiki/Concepts/人机协作知识管理.md",
     "Wiki/Concepts/知识复利.md",
     "Wiki/Concepts/RAG与Wiki范式.md",
@@ -224,16 +234,6 @@
     "Wiki/Concepts/光谱渲染.md",
     "Wiki/Concepts/辐射度量学.md",
     "Wiki/Concepts/仿射变换.md",
-    "Raw/pbrt/References.md",
-    "Raw/pbrt/C Processing the Scene Description",
-    "Raw/pbrt/B Utilities",
-    "Raw/pbrt/A Sampling Algorithms",
-    "Raw/pbrt/16 Retrospective and the Future",
-    "Raw/pbrt/15 Wavefront Rendering on GPUs",
-    "Raw/pbrt/14 Light Transport II Volume Rendering",
-    "Raw/pbrt/13 Light Transport I Surface Reflection",
-    "Raw/pbrt/12 Light Sources",
-    "Raw/pbrt/未命名.canvas",
-    "Raw/pbrt/11 Volume Scattering"
+    "Raw/pbrt/未命名.canvas"
   ]
 }
