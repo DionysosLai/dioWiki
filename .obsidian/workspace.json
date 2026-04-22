@@ -11,12 +11,14 @@
             "id": "7543e07221f23068",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Raw/Fundamentals of Computer Graphics, Fourth Edition ( PDFDrive ).pdf"
+                "file": "Raw/pbrt/1 Introduction/1.2 Photorealistic Rendering and the Ray-Tracing Algorithm.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Fundamentals of Computer Graphics, Fourth Edition ( PDFDrive )"
+              "icon": "lucide-file",
+              "title": "1.2 Photorealistic Rendering and the Ray-Tracing Algorithm"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raw/Fundamentals of Computer Graphics, Fourth Edition ( PDFDrive ).pdf",
+                "file": "Raw/pbrt/1 Introduction/1.1 Literate Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Fundamentals of Computer Graphics, Fourth Edition ( PDFDrive ) 的反向链接列表"
+              "title": "1.1 Literate Programming 的反向链接列表"
             }
           },
           {
@@ -179,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Raw/Fundamentals of Computer Graphics, Fourth Edition ( PDFDrive ).pdf"
+                "file": "Raw/pbrt/1 Introduction/1.2 Photorealistic Rendering and the Ray-Tracing Algorithm.md"
               },
               "icon": "lucide-info",
-              "title": "Fundamentals of Computer Graphics, Fourth Edition ( PDFDrive )的笔记属性"
+              "title": "1.2 Photorealistic Rendering and the Ray-Tracing Algorithm的笔记属性"
             }
           }
         ],
@@ -204,14 +206,25 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ecfb4b5be8a82447",
+  "active": "7543e07221f23068",
   "lastOpenFiles": [
-    "Wiki/Analyses/pbrt两个月阅读计划.md",
+    "Raw/pbrt/1 Introduction/assets/Pasted image 20260422094458.png",
+    "Raw/pbrt/1 Introduction/assets/Pasted image 20260422094443.png",
+    "Raw/pbrt/1 Introduction/assets/Pasted image 20260422094357.png",
+    "Raw/pbrt/1 Introduction/assets",
+    "Raw/assets/README.md",
+    "Raw/pbrt/1 Introduction/1.2 Photorealistic Rendering and the Ray-Tracing Algorithm.md",
+    "Pasted image 20260422093721.png",
+    "Pasted image 20260422093639.png",
+    "Raw/pbrt/1 Introduction/1.1 Literate Programming.md",
+    "Raw/pbrt/1 Introduction/1 Introduction.md",
+    "Raw/pbrt/Preface.md",
+    "Raw/pbrt/References.md",
     "Raw/fcg/1 Introduction.md",
     "Raw/Fundamentals of Computer Graphics, Fourth Edition ( PDFDrive ).pdf",
+    "Wiki/Analyses/pbrt两个月阅读计划.md",
     "Raw/pbrt/3 Geometry and Transformations/3.4 Points.md",
     "Raw/fcg/2 Miscellaneous Math.md",
-    "Raw/pbrt/1 Introduction/1 Introduction.md",
     "add_fcg_wikilinks.py",
     "update_concepts_fcg.py",
     "Wiki/Entities/Peter Shirley.md",
@@ -229,19 +242,12 @@
     "Raw/fcg/17 Using Graphics Hardware.md",
     "Raw/fcg/16 Computer Animation.md",
     "Raw/fcg/15 Curves.md",
-    "Raw/fcg/14 Sampling.md",
-    "Raw/fcg/13 More Ray Tracing.md",
-    "Raw/fcg/12 Data Structures for Graphics.md",
-    "Raw/fcg/11 Texture Mapping.md",
-    "Raw/fcg/10 Surface Shading.md",
-    "Raw/fcg/9 Signal Processing.md",
     "Raw/fcg",
     "extract_fcg.py",
     "Raw/数学觉醒：学会更清晰地思考/致谢-整理说明.txt",
     "Raw/数学觉醒：学会更清晰地思考/第9章-问题出在哪里？-摘要.txt",
     "Raw/数学觉醒：学会更清晰地思考/第8章-触觉理论-摘要.txt",
     "Raw/数学觉醒：学会更清晰地思考/第7章-孩童的姿态-摘要.txt",
-    "Raw/数学觉醒：学会更清晰地思考/第6章-不读数学书-摘要.txt",
     "未命名 1.canvas",
     "未命名.canvas",
     "Raw/pbrt/未命名.canvas"
