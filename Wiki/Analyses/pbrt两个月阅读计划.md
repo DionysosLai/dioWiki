@@ -140,7 +140,7 @@ tags:
 ### Day 4（约 1.5 小时）
 
 - 读 `Raw/pbrt/1 Introduction/1.4 How to Proceed through This Book.md`
-- 读 `Raw/pbrt/1 Introduction/1.6 Using and Understanding the Code.md`
+- 读 `Raw/pbrt/1 Introduction/1.5 Using and Understanding the Code.md`
 
 **任务**：
 

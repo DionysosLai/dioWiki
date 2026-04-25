@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raw/pbrt/1 Introduction/1.2 Photorealistic Rendering and the Ray-Tracing Algorithm.md",
+                "file": "Raw/pbrt/1 Introduction/1.1 Literate Programming.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "1.2 Photorealistic Rendering and the Ray-Tracing Algorithm"
+              "title": "1.1 Literate Programming"
             }
           }
         ]
@@ -181,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Raw/pbrt/1 Introduction/1.2 Photorealistic Rendering and the Ray-Tracing Algorithm.md"
+                "file": "Raw/pbrt/1 Introduction/1.1 Literate Programming.md"
               },
               "icon": "lucide-info",
-              "title": "1.2 Photorealistic Rendering and the Ray-Tracing Algorithm的笔记属性"
+              "title": "1.1 Literate Programming的笔记属性"
             }
           }
         ],
@@ -208,6 +208,10 @@
   },
   "active": "7543e07221f23068",
   "lastOpenFiles": [
+    "Raw/pbrt/1 Introduction/1.2 Photorealistic Rendering and the Ray-Tracing Algorithm.md",
+    "Raw/pbrt/1 Introduction/1.1 Literate Programming.md",
+    "Raw/pbrt/1 Introduction/1 Introduction.md",
+    "Raw/pbrt/1 Introduction/1.5 Using and Understanding the Code.md",
     "Raw/pbrt/1 Introduction/assets/Pasted image 20260424090739.png",
     "Raw/pbrt/1 Introduction/assets/Pasted image 20260424090733.png",
     "Raw/pbrt/1 Introduction/assets/Pasted image 20260424090658.png",
@@ -218,12 +222,8 @@
     "Raw/pbrt/1 Introduction/assets/Pasted image 20260422175607.png",
     "Raw/pbrt/1 Introduction/assets/Pasted image 20260422094458.png",
     "Raw/pbrt/1 Introduction/assets/Pasted image 20260422094443.png",
-    "Raw/pbrt/1 Introduction/assets/Pasted image 20260422094357.png",
     "Raw/pbrt/1 Introduction/assets",
     "Raw/assets/README.md",
-    "Raw/pbrt/1 Introduction/1.2 Photorealistic Rendering and the Ray-Tracing Algorithm.md",
-    "Raw/pbrt/1 Introduction/1.1 Literate Programming.md",
-    "Raw/pbrt/1 Introduction/1 Introduction.md",
     "Raw/pbrt/Preface.md",
     "Raw/pbrt/References.md",
     "Raw/fcg/1 Introduction.md",

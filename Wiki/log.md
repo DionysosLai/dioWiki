@@ -17,6 +17,19 @@ updated: 2026-04-24
 
 ---
 
+## [2026-04-24] query | 解释 Obsidian 中 wikilink 看起来未生效的原因
+
+- 问题：用户看到 `[[pbrt]]`、`[[1.3 pbrt System Overview]]` 等链接仍以原始语法显示，并伴随红色虚线，怀疑链接仍未生效。
+- 涉及页面：[[pbrt]]、[[1.3 pbrt System Overview]]、[[1.5 Using and Understanding the Code]]
+- 结论：相关目标文件都存在，问题不是链接失效，而是当前编辑器标签页处于 `source` 模式；在该模式下 `wikilink` 会以原始 `[[...]]` 形式显示。截图中的红色虚线更像拼写检查对 `pbrt` 这类词的标注，而非坏链接提示。
+- 建议：切换到 Live Preview / Reading view 验证链接显示；若想去掉红色虚线，可关闭拼写检查或将术语加入词典。
+
+## [2026-04-24] lint | 修正 pbrt Chapter 1 章节编号与链接
+
+- 问题：`Raw/pbrt/1 Introduction/` 下的 `Using and Understanding the Code` 文件名误写为 `1.6 ...`，但文件正文标题实际是 `## 1.5 ...`，导致章节编号和相关 `wikilink` 不一致。
+- 处理：将文件更正为 `1.5 Using and Understanding the Code.md`，并同步更新 Chapter 1 各文件的 `Related` 链接，以及 `Analyses/pbrt两个月阅读计划.md` 中 Day 4 的路径引用。
+- 结果：`1 Introduction` 目录恢复为连续的 `1.1` 到 `1.6` 编号；全库已不存在 `1.6 Using and Understanding the Code` 的旧引用。
+
 ## [2026-04-24] query | 评估 pbrt Day 2 两个回答
 
 - 问题：用户完成 Day 2 阅读后，尝试回答“文学编程的核心价值”与“光线追踪的 7 大组件如何理解”两个问题，希望确认是否抓住重点。

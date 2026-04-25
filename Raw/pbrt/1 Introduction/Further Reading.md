@@ -115,4 +115,4 @@ Whereas standard rendering algorithms generate images from a 3D scene descriptio
 - [[1.3 pbrt System Overview]]
 - [[1.4 How to Proceed through This Book]]
 - [[1.6 A Brief History of Physically Based Rendering]]
-- [[1.6 Using and Understanding the Code]]
+- [[1.5 Using and Understanding the Code]]
