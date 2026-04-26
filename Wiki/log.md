@@ -2,7 +2,7 @@
 title: "Wiki Log"
 description: "知识库操作日志 — 按时间记录所有 ingest、query、lint 操作"
 created: 2026-04-10
-updated: 2026-04-24
+updated: 2026-04-25
 ---
 
 # 📝 Wiki Log
@@ -16,6 +16,20 @@ updated: 2026-04-24
 可用 `grep "^## \[" log.md | tail -5` 快速查看最近 5 条记录。
 
 ---
+
+## [2026-04-26] query | 给出 pbrt 第1周 Day 3 三个问题的参考答案
+
+- 问题：用户希望直接获得 `pbrt` 第 1 周 `Day 3` 三个核心问题的参考答案。
+- 涉及页面：[[pbrt]]、[[1.3 pbrt System Overview]]、[[pbrt Day 3 详细计划（1.3 pbrt System Overview）]]
+- 结论：参考答案应围绕三点展开：一是将 14 个基类型按“物理量、几何、图像形成、材质与光、统筹者”五组理解；二是把执行过程概括为“解析场景 → 构造对象 → 渲染循环”三阶段；三是说明 `Integrator` 之所以是主角，是因为它负责统筹 `Render()` 主线，并最终通过 `Li()` 决定每条光线带回的 radiance。
+- 建议：优先把三阶段与 `Integrator → ImageTileIntegrator → RayIntegrator → Li()` 这条主线讲顺，不必现在深挖 `tag-based dispatch` 或具体积分器实现。
+
+## [2026-04-26] query | 说明 pbrt 第1周 Day 3 的核心问题
+
+- 问题：用户询问 `pbrt` 第 1 周 `Day 3` 到底要回答什么问题。
+- 涉及页面：[[pbrt]]、[[1.3 pbrt System Overview]]
+- 结论：`Day 3` 的核心不是记实现细节，而是回答三件事：`pbrt` 依靠哪 14 个基类型搭起系统、整个执行分为哪 3 个阶段、以及为什么 `Integrator` 是整本书的主角。配套任务是画出最简系统图，并只追主流程，不展开所有类层次。
+- 建议：先把 `Camera → Ray → Intersection → BSDF / Light / Integrator → Film` 这条主线口头讲顺，再回头记录暂时不懂的接口名。
 
 ## [2026-04-24] query | 解释 Obsidian 中 wikilink 看起来未生效的原因
 
