@@ -79,7 +79,9 @@ updated: 2026-04-15
 | 页面 | 简述 |
 |------|------|
 | [[pbrt两个月阅读计划]] | 基于 [[pbrt]] 与 [[fcg]] 的 8 周首遍阅读拆解：周计划、补位章节、最低完成标准与掉队补救策略 |
+| [[pbrt Day 3 详细计划（1.3 pbrt System Overview）]] | 第 1 周第 3 天阅读计划：建立系统地图，抓住 14 个基类型、三阶段执行与 `Integrator → Li()` 主线 |
+| [[pbrt Day 4 详细计划（1.4 How to Proceed through This Book + 1.5 Using and Understanding the Code）]] | 第 1 周第 4 天阅读计划：建立首遍阅读守则、源码导航图与“先别深挖”清单 |
 
 ---
 
-*最后更新：2026-04-15（新增 pbrt 两个月阅读计划分析页）*
+*最后更新：2026-04-26（新增 pbrt Day 3 / Day 4 详细计划分析页）*

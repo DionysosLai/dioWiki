@@ -17,6 +17,69 @@ updated: 2026-04-25
 
 ---
 
+## [2026-04-29] query | 评估 pbrt Day 4 加分题 B 的回答
+
+- 问题：用户尝试回答加分题 B，即为什么每个线程要有自己的 `Sampler`。
+- 涉及页面：[[pbrt Day 4 详细计划（1.4 How to Proceed through This Book + 1.5 Using and Understanding the Code）]]、[[1.5 Using and Understanding the Code]]
+- 结论：用户这次把两个点混在了一起：`Sampler` 每线程独立的直接原因是它**不是线程安全的**，因此渲染时每个线程都要通过 `Sampler::Clone()` 拿到自己的副本；而“出错后能在出错位置恢复”对应的是 `1.5.9 Debugging and Logging` 中的**确定性执行**设计，不是为 `Sampler` 每线程独立给出的主因。
+- 建议：区分两类工程动机：并行性问题看“线程安全”，调试问题看“确定性执行”；不要把它们混为同一个答案。
+
+## [2026-04-29] query | 评估 pbrt Day 4 加分题 A 的回答
+
+- 问题：用户尝试回答加分题 A，即为什么第 4 版大量使用 `TaggedPointer` 而不是传统虚函数。
+- 涉及页面：[[pbrt Day 4 详细计划（1.4 How to Proceed through This Book + 1.5 Using and Understanding the Code）]]、[[1.5 Using and Understanding the Code]]
+- 结论：用户答到了其中一个关键点：虚函数表中的函数地址无法同时适配 CPU 与 GPU，因此不利于统一两条执行路径；但完整答案还应再补一个原因——`TaggedPointer` 还能避免对象额外携带虚表指针，从而节省内存。
+- 建议：后续回答这题时，用“两点式”表达最稳：**省内存 + 兼容 CPU/GPU 统一架构**。
+
+## [2026-04-29] query | 评估 pbrt Day 4 第四个检查题的回答
+
+- 问题：用户回答了 `Day 4` 第四个问题，即以后阅读 `pbrt` 代码时准备采用什么阅读策略。
+- 涉及页面：[[pbrt Day 4 详细计划（1.4 How to Proceed through This Book + 1.5 Using and Understanding the Code）]]、[[1.4 How to Proceed through This Book]]、[[1.5 Using and Understanding the Code]]
+- 结论：用户回答抓住了核心方向——先理清主线，再看细节；若要更完整，可再补出 Day 4 建议的四条具体守则：按章节顺序读、不乱跳主线、每章只追 1 条核心代码路径、先抓接口/数据流/主循环，再回头啃局部技巧。
+- 建议：后续回答“阅读策略”类问题时，尽量把抽象原则落成 3-4 条可执行规则，这样更容易在后续章节真正落实。
+
+## [2026-04-29] query | 评估 pbrt Day 4 第三个检查题的回答
+
+- 问题：用户回答了 `Day 4` 第三个问题，即如何理解 `pbrt` 的源码目录分层与首遍阅读重点。
+- 涉及页面：[[pbrt Day 4 详细计划（1.4 How to Proceed through This Book + 1.5 Using and Understanding the Code）]]、[[1.5 Using and Understanding the Code]]
+- 结论：用户回答基本准确，已正确区分 `src/ext` 与 `src/pbrt`，并按原文说明了 `base`、`cmd`、`cpu`、`gpu`、`util`、`wavefront` 的职责。若要更贴合 Day 4 的检查目标，可再补一句首遍阅读优先级：重点看 `base` 和与当前章节直接相关的实现文件，`gpu`、`wavefront` 与第三方库先不作为主战场。
+- 建议：后续回答这类“目录题”时，可以在“目录作用”之外再加一层“首遍优先级”，这样会更像真正可执行的阅读策略。
+
+## [2026-04-28] query | 调整 pbrt 阅读问答的交互顺序
+
+- 问题：用户希望后续在评估回答前，先把当次需要回答的题目完整列出。
+- 涉及页面：[[pbrt Day 4 详细计划（1.4 How to Proceed through This Book + 1.5 Using and Understanding the Code）]]
+- 结论：后续更合适的交互顺序是：先列题，再逐题收答，再逐题点评；这样更符合用户当前的阅读与自测节奏。
+- 建议：下次进入某一天的阅读检查时，优先先发题目清单，再进入回答阶段。
+
+## [2026-04-28] query | 评估 pbrt Day 4 第二个检查题的回答
+
+- 问题：用户尝试回答 `Day 4` 的第二个问题，即后面每一章首遍最少必须抓住什么。
+- 涉及页面：[[pbrt Day 4 详细计划（1.4 How to Proceed through This Book + 1.5 Using and Understanding the Code）]]、[[1.4 How to Proceed through This Book]]
+- 结论：用户回答方向正确，已经抓住“必须保住主线、理解基础系统逻辑”的核心；但更完整的答案还应明确点出三个最低抓手：低层类（如 `Point3f`、`Ray`、`SampledSpectrum`）、表 1.1 的接口体系，以及通向 `RayIntegrator::Li()` 的渲染主线。
+- 建议：后续回答尽量从“抽象原则 + 具体对象”两层来答，这样既不空泛，也更容易和后面各章挂钩。
+
+## [2026-04-28] query | 评估 pbrt Day 4 第一个检查题的回答
+
+- 问题：用户尝试回答 `Day 4` 的第一个问题，即首遍阅读时哪些内容允许先跳过。
+- 涉及页面：[[pbrt Day 4 详细计划（1.4 How to Proceed through This Book + 1.5 Using and Understanding the Code）]]、[[1.4 How to Proceed through This Book]]
+- 结论：用户回答抓住了核心的一半：带 `*` 的确代表高级内容，首遍可以跳过；但还可以再补完整一点——首遍同样可暂缓在线补充内容、`src/ext` 第三方库内部实现，以及练习中的 `②/③` 级重任务，因为 Day 4 的关键是先保住主线节奏。
+- 建议：后续回答尽量从“哪些能跳 + 为什么能跳”两层来答，避免只给结论不说明阅读原则。
+
+## [2026-04-28] query | 提炼 pbrt 第1周 Day 4 的检查题
+
+- 问题：用户读完 `Day 4` 后，希望明确现在应该回答哪些检查题。
+- 涉及页面：[[pbrt Day 4 详细计划（1.4 How to Proceed through This Book + 1.5 Using and Understanding the Code）]]、[[1.4 How to Proceed through This Book]]、[[1.5 Using and Understanding the Code]]
+- 结论：`Day 4` 的合格标准可归结为四个口头问题：首遍哪些内容允许跳过、后面每章最少必须抓住什么、源码目录该如何分层理解、以及阅读代码时应遵循什么策略；补充检查点包括 `TaggedPointer` 的存在理由与每线程独立 `Sampler` 的并行设计。
+- 建议：优先先用自己的话回答 4 个主问题，再补 2 个加分题，不必现在深挖模板细节或第三方库实现。
+
+## [2026-04-26] query | 制定 pbrt 第1周 Day 4 阅读计划
+
+- 问题：用户希望获取 `pbrt` 第 1 周 `Day 4` 的详细阅读计划。
+- 涉及页面：[[pbrt]]、[[1.4 How to Proceed through This Book]]、[[1.5 Using and Understanding the Code]]、[[pbrt两个月阅读计划]]
+- 结论：`Day 4` 的重点不是新增大量知识点，而是建立首遍阅读协议：明确带 `*` 的高级小节可先跳过、后续每章只追 1 条核心代码路径、优先抓低层类与表 1.1 接口、并建立 `src/pbrt` 目录导航与“先别深挖”清单。
+- 产出：新增分析页 `[[pbrt Day 4 详细计划（1.4 How to Proceed through This Book + 1.5 Using and Understanding the Code）]]`，并更新 `index.md` 与 `overview.md`。
+
 ## [2026-04-26] query | 给出 pbrt 第1周 Day 3 三个问题的参考答案
 
 - 问题：用户希望直接获得 `pbrt` 第 1 周 `Day 3` 三个核心问题的参考答案。

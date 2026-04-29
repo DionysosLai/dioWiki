@@ -203,7 +203,7 @@ Integrator::Render()
 
 ## 明天（Day 4）提示
 
-Day 4 读 `1.4 How to Proceed through This Book` + `1.6 Using and Understanding the Code`。
+Day 4 读 `1.4 How to Proceed through This Book` + `1.5 Using and Understanding the Code`。
 
 - 1.4 会告诉你**允许跳过**哪些小节，这会直接影响你后面 7 周的节奏
 - 1.6 会解释**文学编程片段**怎么读（`⟨xxx⟩ ≡` 那种语法）
