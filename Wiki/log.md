@@ -17,6 +17,20 @@ updated: 2026-04-25
 
 ---
 
+## [2026-04-29] query | 直接给出 pbrt 第1周 Day 5 的参考答案
+
+- 问题：用户认为 `Day 5` 的历史节相对不重要，希望直接获得可过关的参考答案。
+- 涉及页面：[[pbrt两个月阅读计划]]、[[1.6 A Brief History of Physically Based Rendering]]、[[Exercises]]
+- 结论：`Day 5` 可压缩为三点：一是记住历史主线从 `Whitted`、`Cook/Torrance`、`radiosity`、`distributed ray tracing`、`path tracing` 到 `Veach` 和现代生产级 PBR；二是明白工业界采用基于物理的蒙特卡洛方法，不只是因为更真实，更因为它提升艺术家生产率、参数更统一、预览与最终渲染路径更一致；三是 `Exercises` 首遍只用感受本书默认深度，不必现在认真做题。
+- 建议：把这节当作“补背景和建立信心”的收尾材料即可，真正主战场仍是后面的蒙特卡洛积分章节。
+
+## [2026-04-29] query | 给出 pbrt 第1周 Day 5 的阅读题目
+
+- 问题：用户希望继续推进到 `pbrt` 第 1 周 `Day 5`。
+- 涉及页面：[[pbrt两个月阅读计划]]、[[1.6 A Brief History of Physically Based Rendering]]、[[Exercises]]
+- 结论：`Day 5` 应聚焦三件事：建立 `Whitted → Cook/Torrance & radiosity → distributed ray tracing / path tracing → Veach → 生产级 PBR` 的历史线；理解为什么基于物理的蒙特卡洛方法最终在工业界胜出；以及通过略看练习感受本书默认的学习深度。
+- 建议：先回答 3 个主问题，再补 1 个加分题；首遍不做练习，只要能写出 Chapter 1 的 5 句摘要即可。
+
 ## [2026-04-29] query | 评估 pbrt Day 4 加分题 B 的回答
 
 - 问题：用户尝试回答加分题 B，即为什么每个线程要有自己的 `Sampler`。
