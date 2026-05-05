@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 ## A Sampling Algorithms
 

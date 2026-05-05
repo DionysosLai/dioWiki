@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 - [Account for in importance at surfaces](https://pbr-book.org/4ed/Light_Sources/Light_Sampling.html#fragment-Accountforcostheta_romaniinimportanceatsurfaces-0)
 - [Account for emissive surface if light was not sampled](https://pbr-book.org/4ed/Light_Transport_I_Surface_Reflection/A_Simple_Path_Tracer.html#fragment-Accountforemissivesurfaceiflightwasnotsampled-0)

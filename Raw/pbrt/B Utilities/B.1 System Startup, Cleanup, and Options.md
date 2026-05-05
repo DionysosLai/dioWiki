@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 ## B.1 System Startup, Cleanup, and Options
 > ## B.1 系统启动、清理和选项

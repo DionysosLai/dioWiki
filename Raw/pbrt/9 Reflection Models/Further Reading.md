@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 Hall’s ([^40]) book collected and described the state of the art in physically based surface reflection models for graphics; it remains a seminal reference. It discusses the physics of surface reflection in detail, with many pointers to the original literature.
 

@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 ## B.6 Parallelism
 > ## B.6 并行性

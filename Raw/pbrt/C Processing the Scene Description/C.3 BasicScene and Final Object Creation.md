@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 ## C.3 BasicScene and Final Object Creation
 > ## C.3 BasicScene 和最终对象创建

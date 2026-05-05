@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 ## A.5 Sampling Multidimensional Functions
 > ## A.5 多维函数采样

@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 ## A.4 Sampling 1D Functions
 > ## A.4 一维函数采样

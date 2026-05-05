@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 
 1. ① How many photons would a 50-W lightbulb that emits light at the single wavelength emit in 1 second?

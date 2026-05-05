@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 The books written by van de Hulst ([^33]) and Preisendorfer ([^28], [^29]) are excellent introductions to volume light transport. The seminal book by Chandrasekhar ([^2]) is another excellent resource, although it is mathematically challenging. d’Eon’s book ([^5]) has rigorous coverage of this topic and includes extensive references to work in the area. Novák et al.’s report ([^25]) provides a comprehensive overview of research in volumetric light transport for rendering through 2018; see also the “Further Reading” section of Chapter [14](https://pbr-book.org/4ed/Light_Transport_II_Volume_Rendering.html#chap:volume-integration) for more references on this topic.
 

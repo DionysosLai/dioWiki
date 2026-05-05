@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 Rejection sampling was developed by von Neumann ([^19]) shortly after the Monte Carlo method was invented.
 

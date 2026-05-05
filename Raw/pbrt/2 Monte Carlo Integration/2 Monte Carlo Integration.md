@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 ## 2 Monte Carlo Integration
 
@@ -37,6 +37,6 @@ The following sections discuss the basic principles of Monte Carlo integration, 
 
 **同章节**:
 - [[2.1 Monte Carlo Basics]]
-- [[2.2 Improving Efficiency]]
+- [[Raw/pbrt/2 Monte Carlo Integration/2.2 Improving Efficiency]]
 - [[2.3 Sampling Using the Inversion Method]]
 - [[2.4 Transforming between Distributions]]

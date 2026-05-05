@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 Adams, A., and M. Levoy. 2007. General linear cameras with finite aperture. In *Rendering Techniques* (*Proceedings of the 2007 Eurographics Symposium on Rendering*), 121–26.
 

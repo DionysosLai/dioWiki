@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 1. ① Show that the [WeightedReservoirSampler::Merge()](https://pbr-book.org/4ed/Sampling_Algorithms/Reservoir_Sampling.html#WeightedReservoirSampler::Merge) method leaves the resulting reservoir with a sample that indeed is stored with probability equal to its weight divided by the sums of weights for all the samples in the two reservoirs.
 > ① 证明 [WeightedReservoirSampler::Merge()](https://pbr-book.org/4ed/Sampling_Algorithms/Reservoir_Sampling.html#WeightedReservoirSampler::Merge) 方法使结果蓄水池中存储的样本确实以其权重除以两个蓄水池中所有样本权重之和的概率被存储。

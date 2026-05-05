@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 ## B.4 Containers and Memory Management
 > ## B.4 容器和内存管理

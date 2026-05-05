@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 ## C.1 Tokenizing and Parsing
 > ## C.1 词法分析和解析

@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 ## C.2 Managing the Scene Description
 > ## C.2 管理场景描述

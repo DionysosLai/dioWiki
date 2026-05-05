@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 1. ① The functionality of the SpotLight could be replicated by using a suitable image in conjunction with the [ProjectionLight](https://pbr-book.org/4ed/Light_Sources/Point_Lights.html#ProjectionLight) or [GoniometricLight](https://pbr-book.org/4ed/Light_Sources/Point_Lights.html#GoniometricLight). Discuss the advantages and disadvantages of providing this specific functionality separately with the SpotLight class.
 
