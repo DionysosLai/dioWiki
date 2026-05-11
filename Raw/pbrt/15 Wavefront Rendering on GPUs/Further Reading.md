@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 Purcell et al. ([^25], [^24]) and Carr, Hall, and Hart ([^4]) were the first to map general-purpose ray tracers to graphics processors.
 

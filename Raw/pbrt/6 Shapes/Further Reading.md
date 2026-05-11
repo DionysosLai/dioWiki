@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 *An Introduction to Ray Tracing* has an extensive survey of algorithms for ray–shape intersection ([Glassner 1989a](#cite:Glassner:IntroRayTracing)). Goldstein and Nagel ([^21]) discussed ray–quadric intersections, and Heckbert ([^31]) discussed the mathematics of quadrics for graphics applications in detail, with many citations to literature in mathematics and other fields. Hanrahan ([^27]) described a system that automates the process of deriving a ray intersection routine for surfaces defined by implicit polynomials; his system emits C source code to perform the intersection test and normal computation for a surface described by a given equation. Mitchell ([^46]) showed that interval arithmetic could be applied to develop algorithms for robustly computing intersections with implicit surfaces that cannot be described by polynomials and are thus more difficult to accurately compute intersections for (more recent work in this area was done by Knoll et al. ([^39])).
 

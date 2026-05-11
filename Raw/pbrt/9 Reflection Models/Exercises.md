@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 1. ① A consequence of Fermat's principle from optics is that light traveling from a point in a medium with index of refraction to a point in a medium with index of refraction will follow a path that minimizes the time to get from the first point to the second point. Snell's law can be shown to follow directly from this fact.
 

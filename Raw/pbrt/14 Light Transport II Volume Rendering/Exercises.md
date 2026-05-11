@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 1. ② Replace ratio tracking in the [VolPathIntegrator::SampleLd()](https://pbr-book.org/4ed/Light_Transport_II_Volume_Rendering/Volume_Scattering_Integrators.html#VolPathIntegrator::SampleLd) method with delta tracking. After you confirm that your changes converge to the correct result, measure the difference in performance and MSE in order to compare the Monte Carlo efficiency of the two approaches for a variety of volumetric data sets. Do you find any cases where delta tracking is more efficient? If so, can you explain why?
 > ② 将 [VolPathIntegrator::SampleLd()](https://pbr-book.org/4ed/Light_Transport_II_Volume_Rendering/Volume_Scattering_Integrators.html#VolPathIntegrator::SampleLd) 方法中的比率追踪替换为 delta 追踪。在确认你的修改收敛到正确结果后，测量性能和 MSE 的差异，以比较两种方法在各种体积数据集上的蒙特卡罗效率。你是否发现某些情况下 delta 追踪更高效？如果是，你能解释原因吗？

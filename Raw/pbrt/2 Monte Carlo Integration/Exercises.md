@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 1. ② Write a program that compares Monte Carlo and one or more alternative numerical integration techniques. Structure this program so that it is easy to replace the particular function being integrated. Verify that the different techniques compute the same result (given a sufficient number of samples for each of them). Modify your program so that it draws samples from distributions other than the uniform distribution for the Monte Carlo estimate, and verify that it still computes the correct result when the correct estimator, Equation (2.7), is used.
 
@@ -32,6 +32,6 @@ tags:
 **同章节**:
 - [[2 Monte Carlo Integration]]
 - [[2.1 Monte Carlo Basics]]
-- [[2.2 Improving Efficiency]]
+- [[Raw/pbrt/2 Monte Carlo Integration/2.2 Improving Efficiency]]
 - [[2.3 Sampling Using the Inversion Method]]
 - [[2.4 Transforming between Distributions]]

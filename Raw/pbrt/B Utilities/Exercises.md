@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 1. ② It is possible to use image pyramids and MIP mapping with images that have non-power-of-two resolutions—the details are explained by Guthe and Heckbert ([2005](https://pbr-book.org/4ed/Utilities/Further_Reading.html#cite:Guthe05)). Implementing this approach can save a substantial amount of memory: in the worst case, the resampling that pbrt 's [MIPMap](https://pbr-book.org/4ed/Textures_and_Materials/Image_Texture.html#MIPMap) implementation performs can increase memory requirements by a factor of four. (Consider a texture that is resampled to be.) Implement this approach in pbrt, and compare the amount of memory used to store texture data for a variety of texture-heavy scenes.
 > ② 可以对非 2 的幂次分辨率的图像使用图像金字塔和 MIP 映射——细节由 Guthe 和 Heckbert（[2005](https://pbr-book.org/4ed/Utilities/Further_Reading.html#cite:Guthe05)）解释。实现此方法可以节省大量内存：在最坏情况下，pbrt 的 [MIPMap](https://pbr-book.org/4ed/Textures_and_Materials/Image_Texture.html#MIPMap) 实现执行的重采样可以将内存需求增加四倍。在 pbrt 中实现此方法，并比较各种纹理密集场景中用于存储纹理数据的内存量。

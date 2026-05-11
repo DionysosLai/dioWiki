@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 McCluney’s book on radiometry is an excellent introduction to the topic ([^21]). Preisendorfer ([^32]) also covered radiometry in an accessible manner and delved into the relationship between radiometry and the physics of light. Nicodemus et al. ([^28]) carefully defined the BRDF, BSSRDF, and various quantities that can be derived from them.
 

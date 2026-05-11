@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 1. ② Modify pbrt so that the camera can report its sample requirements and then use this information when samples are requested to initialize CameraSamples. Render images and compare results. Do you see an improvement? How do results differ with different samplers?
 

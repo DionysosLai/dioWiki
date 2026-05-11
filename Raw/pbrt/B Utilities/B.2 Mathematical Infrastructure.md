@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 ## B.2 Mathematical Infrastructure
 > ## B.2 数学基础设施

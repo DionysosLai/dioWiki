@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 In his seminal *Sketchpad* system, Sutherland ([^44]) was the first to use projection matrices for computer graphics. Akenine-Möller et al. ([^2]) have provided a particularly well-written derivation of the orthographic and perspective projection matrices. Other good references for projections are Rogers and Adams’s *Mathematical Elements for Computer Graphics* ([^35]) and Eberly’s book ([^12]) on game engine design. See Adams and Levoy ([^1]) for a broad analysis of the types of radiance measurements that can be taken with cameras that have non-pinhole apertures.
 

@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 - [AbsCosTheta()](https://pbr-book.org/4ed/Geometry_and_Transformations/Spherical_Geometry.html#AbsCosTheta)
 - [AbsDot()](https://pbr-book.org/4ed/Geometry_and_Transformations/Vectors.html#AbsDot)

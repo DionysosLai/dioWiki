@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 The first application of Monte Carlo to global illumination for creating synthetic images that we are aware of was described in Tregenza’s paper on lighting design ([Tregenza 1983](#cite:Tregenza83)). Cook’s distribution ray-tracing algorithm computed glossy reflections, soft shadows from area lights, motion blur, and depth of field with Monte Carlo sampling ([Cook et al. 1984](#cite:Cook84); [Cook 1986](#cite:Cook86)), although the general form of the light transport equation was not stated until papers by Kajiya ([^42]) and Immel, Cohen, and Greenberg ([^34]).
 

@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 The Monte Carlo method was introduced soon after the development of the digital computer by Stanislaw Ulam and John von Neumann ([Ulam et al. 1947](#cite:Ulam1947)), though it also seems to have been independently invented by Enrico Fermi ([Metropolis 1987](#cite:Metropolis1987)). An early paper on Monte Carlo was written by Metropolis and Ulam ([^14]).
 
@@ -94,6 +94,6 @@ See also the “Further Reading” section in Appendix [A](https://pbr-book.org/
 **同章节**:
 - [[2 Monte Carlo Integration]]
 - [[2.1 Monte Carlo Basics]]
-- [[2.2 Improving Efficiency]]
+- [[Raw/pbrt/2 Monte Carlo Integration/2.2 Improving Efficiency]]
 - [[2.3 Sampling Using the Inversion Method]]
 - [[2.4 Transforming between Distributions]]

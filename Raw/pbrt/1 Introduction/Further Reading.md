@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 In a seminal early paper, Arthur Appel ([^2]) first described the basic idea of ray tracing to solve the hidden surface problem and to compute shadows in polygonal scenes. Goldstein and Nagel ([^13]) later showed how ray tracing could be used to render scenes with quadric surfaces. Kay and Greenberg ([^17]) described a ray-tracing approach to rendering transparency, and Whitted’s seminal *CACM* article described a general recursive ray-tracing algorithm that accurately simulates reflection and refraction from specular surfaces and shadows from point light sources ([Whitted 1980](#cite:Whitted80)). Whitted has recently written an article describing developments over the early years of ray tracing ([Whitted 2020](#cite:Whitted2020)).
 
@@ -115,4 +115,4 @@ Whereas standard rendering algorithms generate images from a 3D scene descriptio
 - [[1.3 pbrt System Overview]]
 - [[1.4 How to Proceed through This Book]]
 - [[1.6 A Brief History of Physically Based Rendering]]
-- [[1.6 Using and Understanding the Code]]
+- [[1.5 Using and Understanding the Code]]

@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 Heckbert ([1990a](#cite:Heckbert90pixel)) wrote an article that explains possible pitfalls when using floating-point coordinates for pixels and develops the conventions that are introduced in Section [8.1.4](https://pbr-book.org/4ed/Sampling_and_Reconstruction/Sampling_Theory.html#sec:pixel-concepts).
 

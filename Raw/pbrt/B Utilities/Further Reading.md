@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 *Hacker’s Delight* (Warren [^27]) is a delightful and thought-provoking exploration of bit-twiddling algorithms like those used in some of the utility routines in this appendix. Sean Anderson ([^1]) has a Web page filled with a collection of bit-twiddling techniques like the ones in [IsPowerOf2()](https://pbr-book.org/4ed/Utilities/Mathematical_Infrastructure.html#IsPowerOf2) and [RoundUpPow2()](https://pbr-book.org/4ed/Utilities/Mathematical_Infrastructure.html#RoundUpPow2) at [graphics.stanford.edu/~seander/bithacks.html](http://graphics.stanford.edu/~seander/bithacks.html).
 

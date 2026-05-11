@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 1. ② Read the papers by Manson and Schaefer ([2013](https://pbr-book.org/4ed/Textures_and_Materials/Further_Reading.html#cite:Manson2013), [2014](https://pbr-book.org/4ed/Textures_and_Materials/Further_Reading.html#cite:Manson2014)) on approximating high-quality filters with MIP maps and a small number of bilinear samples. Add an option to use their method for texture filtering in place of the EWA implementation currently in pbrt. Compare image quality for a number of scenes that use textures. How does running time compare? You may also find it beneficial to use a profiler to compare the amount of time it takes to run texture filtering code for each of the two approaches.
 

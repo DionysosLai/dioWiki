@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 The stochastic alpha test implemented in Section [7.1.1](https://pbr-book.org/4ed/Primitives_and_Intersection_Acceleration/Primitive_Interface_and_Geometric_Primitives.html#sec:gprim) builds on ideas introduced in Enderton et al.’s stochastic approach for transparency ([^22]) and Wyman and McGuire’s hashed alpha testing algorithm ([^96]), both of which were focused on rasterization-based rendering.
 

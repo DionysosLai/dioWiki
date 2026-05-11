@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 ## C.4 Adding New Object Implementations
 > ## C.4 添加新的对象实现

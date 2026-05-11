@@ -6,7 +6,7 @@ published:
 created: 2026-04-11
 description:
 tags:
-  - "clippings"
+  - pbrt
 ---
 
 1. ② One nice property of mesh-based shapes like triangle meshes and subdivision surfaces is that the shape's vertices can be transformed into rendering space, so that it is not necessary to transform rays into object space before performing ray intersection tests. Interestingly enough, it is possible to do the same thing for ray–quadric intersections. The implicit forms of the quadrics in this chapter were all of the form where some of the constants were zero. More generally, we can define quadric surfaces by a symmetric matrix Q. Given this representation, first show that the matrix representing a quadric transformed by the matrix M is M⁻ᵀQM⁻¹. Next, substitute the ray equation into the more general quadric equation to compute coefficients for the quadratic equation. Now implement this approach in pbrt and use it instead of the original quadric intersection routines. How does performance compare to the original scheme?
