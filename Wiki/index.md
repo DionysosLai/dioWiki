@@ -2,7 +2,7 @@
 type: meta
 title: 知识库索引
 created: 2026-04-10
-updated: 2026-04-15
+updated: 2026-05-11
 ---
 
 # 📚 Wiki 索引
@@ -15,6 +15,7 @@ updated: 2026-04-15
 | [[pbrt]] | 《Physically Based Rendering》4th Ed. | ✅ 全书完整（16章+3附录+前言，167文件，全部双语翻译） |
 | [[llm-wiki]] | LLM Wiki 方法论（Andrej Karpathy） | ✅ 完整（原文全文） |
 | [[fcg]] | 《Fundamentals of Computer Graphics》4th Ed.（虎书） | ✅ 全书提取（26章+前言，27文件，待双语翻译） |
+| [[三角洲战术设计与双端体验]] | 《解读三角洲：战术设计与双端体验》 | ✅ KM 文章剪藏（已清洗重复片段、SVG 图标和网页噪声） |
 
 ## 实体 (Entities)
 
@@ -74,6 +75,9 @@ updated: 2026-04-15
 | [[知识复利]] | Wiki 随每次 ingest 和 query 不断增值的机制 |
 | [[人机协作知识管理]] | 人类策展 + LLM 维护的分工模式 |
 
+
+
+
 ## 分析 (Analyses)
 
 | 页面 | 简述 |
@@ -82,4 +86,4 @@ updated: 2026-04-15
 
 ---
 
-*最后更新：2026-04-15（新增 pbrt 两个月阅读计划分析页）*
+*最后更新：2026-05-11（新增《三角洲战术设计与双端体验》来源摘要）*

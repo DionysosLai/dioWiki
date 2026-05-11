@@ -2,7 +2,7 @@
 title: "Wiki Log"
 description: "知识库操作日志 — 按时间记录所有 ingest、query、lint 操作"
 created: 2026-04-10
-updated: 2026-04-24
+updated: 2026-05-11
 ---
 
 # 📝 Wiki Log
@@ -16,6 +16,13 @@ updated: 2026-04-24
 可用 `grep "^## \[" log.md | tail -5` 快速查看最近 5 条记录。
 
 ---
+
+## [2026-05-11] ingest | 《三角洲战术设计与双端体验》文章摄入
+
+- 来源：`Raw/设计/解读三角洲：战术设计与双端体验 - 腾讯游戏知识库 - KM平台.md`
+- 操作：调整 Raw frontmatter 标签，新增 `Sources/三角洲战术设计与双端体验.md` 来源摘要，并更新 `index.md`、`overview.md`。
+- 核心内容：提炼《三角洲行动》UI 体验设计、军事视觉语言、C4ISR/OODA 概念转译、双端一体化、跨语言文本与资源适配等方法。
+- 备注：已继续清洗 Raw 文件，去除重复正文、嵌入式 SVG 图标、网页推荐/统计/操作栏等噪声，保留正文图片链接与文章更新时间。
 
 ## [2026-04-24] query | 评估 pbrt Day 2 两个回答
 
