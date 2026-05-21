@@ -2,7 +2,7 @@
 title: "Wiki Log"
 description: "知识库操作日志 — 按时间记录所有 ingest、query、lint 操作"
 created: 2026-04-10
-updated: 2026-04-25
+updated: 2026-05-21
 ---
 
 # 📝 Wiki Log
@@ -16,6 +16,13 @@ updated: 2026-04-25
 可用 `grep "^## \[" log.md | tail -5` 快速查看最近 5 条记录。
 
 ---
+
+## [2026-05-21] ingest | 《AI 的对话管理：把 Context Window 当作一块有限黑板》文章摄入
+
+- 来源：`Raw/AI Agent/AI对话管理_黑板理论文章.md`
+- 操作：为 Raw 原文补充 frontmatter 标签；新增来源摘要 `[[AI对话管理黑板理论]]`；新增概念页 `[[上下文管理]]`；更新 `index.md` 与 `overview.md`。
+- 核心内容：将大模型 `Context Window` 类比为有限黑板，说明 `Instructions`、`Knowledge`、`Tools` 三类信息如何共同影响模型回答，并总结摘要、分层、检索、遗忘等对话管理方法。
+- 关联：[[llm-wiki]]、[[RAG与Wiki范式]]、[[知识复利]]、[[人机协作知识管理]]。
 
 ## [2026-05-05] query | 解释 Russian roulette 为什么可能增方差但提效率
 
