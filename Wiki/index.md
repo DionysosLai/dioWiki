@@ -2,7 +2,7 @@
 type: meta
 title: 知识库索引
 created: 2026-04-10
-updated: 2026-05-21
+updated: 2026-04-15
 ---
 
 # 📚 Wiki 索引
@@ -15,8 +15,6 @@ updated: 2026-05-21
 | [[pbrt]] | 《Physically Based Rendering》4th Ed. | ✅ 全书完整（16章+3附录+前言，167文件，全部双语翻译） |
 | [[llm-wiki]] | LLM Wiki 方法论（Andrej Karpathy） | ✅ 完整（原文全文） |
 | [[fcg]] | 《Fundamentals of Computer Graphics》4th Ed.（虎书） | ✅ 全书提取（26章+前言，27文件，待双语翻译） |
-| [[三角洲战术设计与双端体验]] | 《解读三角洲：战术设计与双端体验》 | ✅ KM 文章剪藏（已清洗重复片段、SVG 图标和网页噪声） |
-| [[AI对话管理黑板理论]] | 《AI 的对话管理：把 Context Window 当作一块有限黑板》 | ✅ 原创整理文章（完整摄入） |
 
 ## 实体 (Entities)
 
@@ -75,7 +73,6 @@ updated: 2026-05-21
 | [[RAG与Wiki范式]] | 两种 LLM 知识管理范式的根本对比 |
 | [[知识复利]] | Wiki 随每次 ingest 和 query 不断增值的机制 |
 | [[人机协作知识管理]] | 人类策展 + LLM 维护的分工模式 |
-| [[上下文管理]] | 将 Context Window 视为有限黑板，对指令、知识、工具结果进行分层、摘要和剪枝 |
 
 ## 分析 (Analyses)
 
@@ -86,7 +83,8 @@ updated: 2026-05-21
 | [[pbrt Day 4 详细计划（1.4 How to Proceed through This Book + 1.5 Using and Understanding the Code）]] | 第 1 周第 4 天阅读计划：建立首遍阅读守则、源码导航图与“先别深挖”清单 |
 | [[pbrt Day 6 详细计划（2 Monte Carlo Integration + 2.1 Monte Carlo Basics）]] | 第 1 周第 6 天阅读计划：跨进 Monte Carlo 主线，只抓“为什么渲染要靠 MC”与 `期望 / 无偏 / 方差 / 收敛率` 四个核心词 |
 | [[pbrt Day 7 详细计划（2.2 Improving Efficiency + 2.3 / 2.4 选读）]] | 第 1 周第 7 天阅读计划：从“MC 为什么成立”转向“MC 如何更省样本、更少噪声”，抓住分层采样、重要性采样、MIS 与效率技巧 |
+| [[pbrt Day 8 详细计划（3 Geometry and Transformations 前半）]] | 第 2 周第 1 天阅读计划：进入几何基础设施主线，先建立坐标系、点/向量/法线语义与 Ray 的统一心智模型 |
 
 ---
 
-*最后更新：2026-05-21（新增《AI 的对话管理：把 Context Window 当作一块有限黑板》来源摘要与[[上下文管理]]概念页）*
+*最后更新：2026-05-05（新增 pbrt Day 8 详细计划分析页）*

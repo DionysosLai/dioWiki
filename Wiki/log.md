@@ -2,7 +2,7 @@
 title: "Wiki Log"
 description: "知识库操作日志 — 按时间记录所有 ingest、query、lint 操作"
 created: 2026-04-10
-updated: 2026-05-21
+updated: 2026-04-25
 ---
 
 # 📝 Wiki Log
@@ -17,12 +17,13 @@ updated: 2026-05-21
 
 ---
 
-## [2026-05-21] ingest | 《AI 的对话管理：把 Context Window 当作一块有限黑板》文章摄入
+## [2026-05-05] query | 制定 pbrt 第2周 Day 8 阅读计划
 
-- 来源：`Raw/AI Agent/AI对话管理_黑板理论文章.md`
-- 操作：为 Raw 原文补充 frontmatter 标签；新增来源摘要 `[[AI对话管理黑板理论]]`；新增概念页 `[[上下文管理]]`；更新 `index.md` 与 `overview.md`。
-- 核心内容：将大模型 `Context Window` 类比为有限黑板，说明 `Instructions`、`Knowledge`、`Tools` 三类信息如何共同影响模型回答，并总结摘要、分层、检索、遗忘等对话管理方法。
-- 关联：[[llm-wiki]]、[[RAG与Wiki范式]]、[[知识复利]]、[[人机协作知识管理]]。
+- 问题：用户希望获取 `pbrt` 第 2 周 `Day 8` 的详细阅读计划。
+- 涉及页面：[[pbrt两个月阅读计划]]、[[3 Geometry and Transformations]]、[[3.1 Coordinate Systems]]、[[3.2 n-Tuple Base Classes]]、[[3.3 Vectors]]、[[3.4 Points]]、[[3.5 Normals]]、[[3.6 Rays]]
+- 结论：`Day 8` 最合适的切入点是 `Ch3` 前半段，先建立 `坐标系 / frame / world space / 点 / 向量 / 法线 / 光线` 这套几何基础语言，而不是急着吃完整章的变换细节；首遍重点是分清几何语义与类型职责，而不是深挖 `3.2` 的模板实现。
+- 产出：新增分析页 `[[pbrt Day 8 详细计划（3 Geometry and Transformations 前半）]]`，并更新 `index.md` 与 `overview.md`。
+- 建议：按“章节定位 → 坐标系 → 基础类型设计 → 点/向量/法线语义 → Ray”顺序推进；只要能口头解释三者差异并说清 `Ray` 的组成，Day 8 就算过关。
 
 ## [2026-05-05] query | 解释 Russian roulette 为什么可能增方差但提效率
 
