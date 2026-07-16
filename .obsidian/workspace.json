@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Transformations.md",
+                "file": "Raw/SLG/率土like品类SLG游戏历史和未来趋势 - KM平台.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transformations"
+              "title": "率土like品类SLG游戏历史和未来趋势 - KM平台"
             }
           }
         ]
@@ -171,8 +171,8 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-ghost",
+              "title": "claudian-view"
             }
           },
           {
@@ -181,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Clippings/Transformations.md"
+                "file": "Raw/SLG/率土like品类SLG游戏历史和未来趋势 - KM平台.md"
               },
               "icon": "lucide-info",
-              "title": "Transformations的笔记属性"
+              "title": "率土like品类SLG游戏历史和未来趋势 - KM平台的笔记属性"
             }
           }
         ],
@@ -207,10 +207,18 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "c447544ff16454ff",
+  "active": "ecfb4b5be8a82447",
   "lastOpenFiles": [
-    "Raw/pbrt/3 Geometry and Transformations/3.9 Transformations.md",
+    "Raw/SLG/游戏开发中的第一性原理：序列化篇_Q-Learning.md",
+    "Raw/SLG/SLG 游戏方案探索和实现 - KM平台.md",
+    "Raw/SLG/买量+模板=爆款？一套SLG工业化打法，让这家中国厂商在全球赚了近300亿.md",
+    "Raw/SLG/率土like品类SLG游戏历史和未来趋势 - KM平台.md",
     "Clippings/Transformations.md",
+    "Raw/SLG/SLG品类十年深度洞察 - KM平台.md",
+    "Clippings/买量+模板=爆款？一套SLG工业化打法，让这家中国厂商在全球赚了近300亿 - KM平台.md",
+    "Raw/SLG",
+    "Clippings/Vectors.md",
+    "Raw/pbrt/3 Geometry and Transformations/3.9 Transformations.md",
     "Raw/pbrt/3 Geometry and Transformations/3.8 Spherical Geometry.md",
     "Wiki/Concepts/球面几何.md",
     "Raw/pbrt/3 Geometry and Transformations/assets/Pasted image 20260518230005.png",
@@ -224,7 +232,6 @@
     "Raw/pbrt/3 Geometry and Transformations/3.5 Normals.md",
     "Raw/pbrt/3 Geometry and Transformations/3.4 Points.md",
     "Raw/pbrt/3 Geometry and Transformations/3.3 Vectors.md",
-    "Clippings/Vectors.md",
     "Clippings/【游戏设计】三角洲的“赛博赌场”还能留住玩家吗？_游戏杂谈 1.md",
     "Clippings/【游戏设计】三角洲的“赛博赌场”还能留住玩家吗？_游戏杂谈.md",
     "Raw/pbrt/3 Geometry and Transformations/3.2 n-Tuple Base Classes.md",
@@ -241,20 +248,13 @@
     "Wiki/Analyses/pbrt-day8.md",
     "Raw/pbrt/3 Geometry and Transformations/assets",
     "Raw/pbrt/3 Geometry and Transformations/3 Geometry and Transformations.md",
-    "Raw/esp32/Arduino C 教程 Windows 系统 - 奇果派技术文档.md",
-    "Raw/assets/README.md",
     "Raw/esp32",
-    "Raw/pbrt/2 Monte Carlo Integration/2.2 Improving Efficiency.md",
-    "Raw/pbrt/2 Monte Carlo Integration/2 Monte Carlo Integration.md",
-    "Wiki/Analyses/pbrt-day7.md",
-    "Raw/pbrt/2 Monte Carlo Integration/2.3 Sampling Using the Inversion Method.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "Raw/pbrt/2 Monte Carlo Integration/assets",
     "Raw/Fundamentals of Computer Graphics, Fourth Edition ( PDFDrive ).pdf",
     "Raw/pbrt/1 Introduction/assets",
     "add_fcg_wikilinks.py",
-    "update_concepts_fcg.py",
     "未命名 1.canvas",
     "未命名.canvas",
     "Raw/pbrt/未命名.canvas"
