@@ -2,7 +2,7 @@
 title: "Wiki Overview"
 description: "知识库整体概览"
 created: 2026-04-10
-updated: 2026-04-15
+updated: 2026-07-30
 tags:
   - "meta"
 ---
@@ -19,7 +19,7 @@ tags:
 
 ```
 diowiki/
-├── Raw/          ← 原始源材料（不可变，LLM 只读）
+├── Raw/          ← 原始源材料（不可变，LLM 只读；视频转录整理除外）
 │   ├── assets/   ← 图片等附件
 │   └── *.md      ← 剪藏的文章、笔记等
 ├── Wiki/         ← LLM 生成并维护的 Wiki 页面
@@ -30,7 +30,7 @@ diowiki/
 │   ├── Concepts/ ← 概念页面
 │   ├── Sources/  ← 来源摘要
 │   └── Analyses/ ← 比较与分析
-└── .codebuddy/rules/ ← Schema（LLM 行为规则）
+└── .cursor/skills/ ← Agent Skills（diowiki、video-transcript 等）
 ```
 
 ## 三种核心操作
@@ -41,18 +41,11 @@ diowiki/
 
 ## 当前状态
 
-- 📊 源材料数量：4 来源共 219 个文件
-  - llm-wiki 方法论（1 文件）— **已完整 ingest**
-  - 《数学觉醒》（24 文件）— 第1-2章完整摘要，第3-20章标题推断（原文受登录限制）
-  - **pbrt**（167 文件 — 全书 16 章 + 3 附录 + 前言完整抓取，**全部双语翻译完成**）
-  - **虎书 fcg**（27 文件 — 全书 26 章 + 前言 PDF 提取，**待双语翻译**）
-- 📄 Wiki 页面数量：52
+- 📊 来源摘要：7（[[数学觉醒]]、[[pbrt]]、[[llm-wiki]]、[[fcg]]、[[AI对话管理黑板理论]]、[[三角洲战术设计与双端体验]]、[[mcp-vs-cli]]）
+- 📄 Wiki 页面约 57+
   - 3 个元页面（index、log、overview）
-  - 4 个来源摘要（[[数学觉醒]]、[[pbrt]]、[[llm-wiki]]、[[fcg]]）
-  - 8 个实体（[[戴维·贝西]]、[[Matt Pharr]]、[[Wenzel Jakob]]、[[Greg Humphreys]]、[[Pat Hanrahan]]、[[Andrej Karpathy]]、[[Steve Marschner]]、[[Peter Shirley]]）
-  - 28 个概念：
-    - 数学觉醒系：[[数学直觉]]、[[内化学习]]、[[具身认知]]、[[数学焦虑]]、[[刻意练习]]、[[视觉化思维]]
-    - pbrt 系：[[光线追踪]]、[[蒙特卡洛积分]]、[[文学编程]]、[[光谱渲染]]、[[GPU渲染]]、[[路径追踪]]、[[BSDF]]、[[辐射度量学]]、[[BVH加速结构]]、[[仿射变换]]、[[球面几何]]、[[采样与重建]]、[[光传输方程]]、[[形状系统]]、[[反射模型]]、[[体积散射]]、[[光源]]、[[纹理与材质]]、[[相机与胶片]]
-    - LLM Wiki 系：[[RAG与Wiki范式]]、[[知识复利]]、[[人机协作知识管理]]
-  - 6 个分析页面：[[pbrt两个月阅读计划]]、[[pbrt Day 3 详细计划（1.3 pbrt System Overview）]]、[[pbrt Day 4 详细计划（1.4 How to Proceed through This Book + 1.5 Using and Understanding the Code）]]、[[pbrt Day 6 详细计划（2 Monte Carlo Integration + 2.1 Monte Carlo Basics）]]、[[pbrt Day 7 详细计划（2.2 Improving Efficiency + 2.3 / 2.4 选读）]]、[[pbrt Day 8 详细计划（3 Geometry and Transformations 前半）]]
-- 🕐 最近操作：2026-05-05 新增分析 —— pbrt Day 8 详细计划（进入几何基础设施主线）
+  - 7 个来源摘要
+  - 9 个实体（含 [[马克的技术工作坊]]）
+  - 概念含数学觉醒系、pbrt 系、LLM Wiki 系，以及 AI Agent 系：[[上下文管理]]、[[MCP]]、[[CLI作为Agent工具接口]]、[[Agent Skill]]
+  - 6 个分析页面（pbrt 阅读计划系列）
+- 🕐 最近操作：2026-07-30 ingest [[mcp-vs-cli]]（MCP vs CLI 工具接口）

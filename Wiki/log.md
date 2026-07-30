@@ -2,7 +2,7 @@
 title: "Wiki Log"
 description: "知识库操作日志 — 按时间记录所有 ingest、query、lint 操作"
 created: 2026-04-10
-updated: 2026-04-25
+updated: 2026-07-30
 ---
 
 # 📝 Wiki Log
@@ -16,6 +16,14 @@ updated: 2026-04-25
 可用 `grep "^## \[" log.md | tail -5` 快速查看最近 5 条记录。
 
 ---
+
+## [2026-07-30] ingest | 摄入《为什么越来越多的人抛弃 MCP，转向 CLI？》
+
+- 阅读 `Raw/AI Agent/为什么越来越多的人抛弃 MCP，转向 CLI？.md`，创建来源摘要 [[mcp-vs-cli]]
+- 新建实体：[[马克的技术工作坊]]
+- 新建概念：[[MCP]]、[[CLI作为Agent工具接口]]、[[Agent Skill]]
+- 更新：[[上下文管理]]（Tools 层元信息的 Token 成本）、`index.md`、`overview.md`
+- 核心结论入库：CLI 更省 Token、链路更短，偏个人；MCP 更可控安全，偏企业/云端
 
 ## [2026-05-05] query | 制定 pbrt 第2周 Day 8 阅读计划
 
